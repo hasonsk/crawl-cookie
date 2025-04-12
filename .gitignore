@@ -1,0 +1,18 @@
+# Ignore specific CSV files
+data/crawled/all_urls.csv
+data/crawled/combined_urls.csv
+
+# Ignore the dataset zip file
+data/crawled/dataset_5_800_000.zip
+
+# Ignore the entire splitted-v3 directory
+# data/crawled/splitted-v3/
+
+# Ignore all files in the filtered directory
+data/crawled/filtered/
+
+# Example of adding a new rule (optional)
+# Ignore all .log files in the crawled directory
+./data/crawled/*.log
+
+*.pyc
