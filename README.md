@@ -3,7 +3,8 @@
 ## Setup
 
 Trước khi chạy chương trình, bạn cần đảm bảo đã cài đặt các thư viện sau:
-```
+
+```bash
 pip install selenium webdriver-manager
 ```
 
@@ -12,7 +13,7 @@ pip install selenium webdriver-manager
 ## Chạy chương trình
 
     ```bash
-    python filter-v1.py --folder urls_12001_24000
+    python filter-v1.py --file urls_12001_24000
     ```
 
 

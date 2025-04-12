@@ -22,13 +22,12 @@ DRIVER_CACHE = None  # Cache for WebDriver service
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 class Crawler:
-    def __init__(self, output_folder='urls_3036001_3046200'):
+    def __init__(self):
         self.urls_with_policy = []
         self.urls_without_policy = []
         self.urls_cannot_reach = []
         self.processed_urls = set()
         self.lock = False
-        self.output_folder = output_folder,
         self._register_signal_handler()
         self._init_driver_service()
 
@@ -60,19 +59,19 @@ class Crawler:
     def _save_results(self):
         try:
             # Save successful URLs
-            with open(f'data/crawled/filtered/{self.output_folder}/urls_with_cookie_policy-v1.csv', 'a', newline='') as f:
+            with open(f'data/crawled/filtered/output_folder/urls_with_cookie_policy.csv', 'a', newline='') as f:
                 writer = csv.writer(f)
                 writer.writerows(self.urls_with_policy)
                 self.urls_with_policy = []
 
             # Save URLs without policy
-            with open(f'data/crawled/filtered/{self.output_folder}urls_without_cookie_policy-v1.csv', 'a', newline='') as f:
+            with open(f'data/crawled/filtered/output_folderurls_without_cookie_policy.csv', 'a', newline='') as f:
                 writer = csv.writer(f)
                 writer.writerows([[url] for url in self.urls_without_policy])
                 self.urls_without_policy = []
 
             # Save unreachable URLs
-            with open(f'data/crawled/filtered/{self.output_folder}/urls_cannot_reach-v1.csv', 'a', newline='') as f:
+            with open(f'data/crawled/filtered/output_folder/urls_cannot_reach.csv', 'a', newline='') as f:
                 writer = csv.writer(f)
                 # writer.writerow(['URL'])
                 writer.writerows([[url] for url in self.urls_cannot_reach])
@@ -200,17 +199,12 @@ class Crawler:
         return self.urls_with_policy, self.urls_without_policy, self.urls_cannot_reach
 
 def main():
-
-    # Parse command-line arguments
     parser = argparse.ArgumentParser(description="Crawl cookie policies from URLs.")
-    parser.add_argument("--folder", required=True, help="Output folder name")
+    parser.add_argument('--file', type=str, help='Path to the input CSV file containing URLs')
     args = parser.parse_args()
-    if args.folder == 'None':
-        logging.error("Please provide a valid folder name.")
-        return
 
-    crawler = Crawler(output_folder=args.folder)
-    input_file = f'data/crawled/splitted-v3/{args.folder}.csv' # Example "urls_3036001_3046200.csv"
+    input_file = f'data/crawled/splitted-v3/{args.file}.csv'
+    crawler = Crawler()
 
     try:
         with open(input_file, 'r') as f:
