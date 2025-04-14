@@ -1,3 +1,5 @@
+import datetime
+import json
 import logging
 import signal
 import sys
@@ -16,10 +18,14 @@ import argparse
 # Configuration
 MAX_WORKERS = 5
 TIMEOUT = 10
-SAVE_INTERVAL = 5
+SAVE_INTERVAL = 50
 DRIVER_CACHE = None  # Cache for WebDriver service
 
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
+
+def save_json(data, file_path):
+    with open(file_path, 'w', encoding='utf-8') as file:
+        json.dump(data, file, ensure_ascii=False, indent=4)
 
 class Crawler:
     def __init__(self):
@@ -59,19 +65,19 @@ class Crawler:
     def _save_results(self):
         try:
             # Save successful URLs
-            with open(f'data/crawled/filtered/output_folder/urls_with_cookie_policy.csv', 'a', newline='') as f:
+            with open(f'data/crawled/filtered/urls_36001_48000/urls_with_cookie_policy-v1.csv', 'a', newline='') as f:
                 writer = csv.writer(f)
                 writer.writerows(self.urls_with_policy)
                 self.urls_with_policy = []
 
             # Save URLs without policy
-            with open(f'data/crawled/filtered/output_folderurls_without_cookie_policy.csv', 'a', newline='') as f:
+            with open(f'data/crawled/filtered/urls_36001_48000/urls_without_cookie_policy-v1.csv', 'a', newline='') as f:
                 writer = csv.writer(f)
                 writer.writerows([[url] for url in self.urls_without_policy])
                 self.urls_without_policy = []
 
             # Save unreachable URLs
-            with open(f'data/crawled/filtered/output_folder/urls_cannot_reach.csv', 'a', newline='') as f:
+            with open(f'data/crawled/filtered/urls_36001_48000/urls_cannot_reach-v1.csv', 'a', newline='') as f:
                 writer = csv.writer(f)
                 # writer.writerow(['URL'])
                 writer.writerows([[url] for url in self.urls_cannot_reach])
@@ -198,32 +204,6 @@ class Crawler:
         self._save_results()
         return self.urls_with_policy, self.urls_without_policy, self.urls_cannot_reach
 
-def main():
-    parser = argparse.ArgumentParser(description="Crawl cookie policies from URLs.")
-    parser.add_argument('--file', type=str, help='Path to the input CSV file containing URLs')
-    args = parser.parse_args()
-
-    input_file = f'data/crawled/splitted-v3/{args.file}.csv'
-    crawler = Crawler()
-
-    try:
-        with open(input_file, 'r') as f:
-            reader = csv.DictReader(f)
-            urls = list({row['URL'].strip() for row in reader if row['URL'].strip()})
-        if not urls:
-            logging.warning("No URLs found in the input file.")
-            return
-
-        logging.info(f"Starting to crawl {len(urls)} URLs")
-        crawler.crawl_cookie_policy(urls)
-
-    except FileNotFoundError:
-        logging.error(f"Input file not found: {input_file}")
-    except Exception as e:
-        logging.error(f"Fatal error: {e}")
-    finally:
-        crawler._save_results()
-
 # Viet ham doc từ 4 file, sau do loc ra cac url trung lap
 def read_urls_from_csv_files(file_paths):
     urls = set()
@@ -251,22 +231,19 @@ def write_urls_to_csv(urls, file_path):
 
 def filter_urls(output_file = 'data/crawled/combined_urls.csv'):
     input_files = [
-                "data/crawled/splitted-v3/urls_1_12000.csv"
+                "data/crawled/splitted-v3/urls_36001_48000.csv"
                 # 'data/crawled/splitted-v2/urls_1_12000.csv',
                 # 'data/crawled/splitted-v2/urls_12001_24000.csv',
                 # 'data/crawled/splitted-v2/urls_24001_36000.csv',
                 ]
 
     reference_file = [
-                "data/crawled/filtered/urls_1_120004/urls_cannot_reach.csv",
-                "data/crawled/filtered/urls_1_120004/urls_without_cookie_policy.csv",
-                "data/crawled/filtered/urls_1_120004/urls_with_cookie_policy.csv",
-                "data/crawled/filtered/urls_1_120004/urls_cannot_reach-v1.csv",
-                "data/crawled/filtered/urls_1_120004/urls_without_cookie_policy-v1.csv",
-                "data/crawled/filtered/urls_1_120004/urls_with_cookie_policy-v1.csv",
-                # "data/crawled/filtered/group_1/urls_list_10/urls_without_cookie_policy.csv",
-                # "data/crawled/filtered/group_1/urls_list_10/urls_cannot_reach.csv",
-                # "data/crawled/filtered/group_1/urls_list_10/urls_with_cookie_policy.csv",
+                "data/crawled/filtered/urls_24001_36000/urls_cannot_reach-v1.csv",
+                "data/crawled/filtered/urls_24001_36000/urls_without_cookie_policy-v1.csv",
+                "data/crawled/filtered/urls_24001_36000/urls_with_cookie_policy-v1.csv",
+                "data/crawled/filtered/urls_24001_36000/urls_cannot_reach.csv",
+                "data/crawled/filtered/urls_24001_36000/urls_without_cookie_policy.csv",
+                "data/crawled/filtered/urls_24001_36000/urls_with_cookie_policy.csv",
                 ]
 
     # Read URLs from the reference file
@@ -283,6 +260,33 @@ def filter_urls(output_file = 'data/crawled/combined_urls.csv'):
     # Write the filtered URLs to the output file
     write_urls_to_csv(filtered_urls, output_file)
     logging.info(f"Filtered URLs saved to {output_file}")
+
+def main():
+    parser = argparse.ArgumentParser(description="Crawl cookie policies from URLs.")
+    parser.add_argument('--file', type=str, help='Path to the input CSV file containing URLs')
+    args = parser.parse_args()
+
+    input_file = f'data/crawled/splitted-v3/{args.file}.csv'
+    # input_file = "data/crawled/combined_urls.csv"
+    crawler = Crawler()
+
+    try:
+        with open(input_file, 'r') as f:
+            reader = csv.DictReader(f)
+            urls = list({row['URL'].strip() for row in reader if row['URL'].strip()})
+        if not urls:
+            logging.warning("No URLs found in the input file.")
+            return
+
+        logging.info(f"Starting to crawl {len(urls)} URLs")
+        crawler.crawl_cookie_policy(urls)
+
+    except FileNotFoundError:
+        logging.error(f"Input file not found: {input_file}")
+    except Exception as e:
+        logging.error(f"Fatal error: {e}")
+    finally:
+        crawler._save_results()
 
 if __name__ == "__main__":
     main()
