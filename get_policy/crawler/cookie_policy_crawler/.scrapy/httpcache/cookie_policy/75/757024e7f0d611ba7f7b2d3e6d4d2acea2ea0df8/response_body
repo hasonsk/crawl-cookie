@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /painel*
+Disallow: escolher-convenio*
+Disallow: /agenda*
+Sitemap: https://espacoiris.com.br/sitemap.xml

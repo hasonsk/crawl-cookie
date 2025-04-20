@@ -1,0 +1,10 @@
+Content-Length: 0
+Server: Kestrel
+Location: https://privacy.microsoft.com/en-us/privacystatement
+Request-Context: appId=cid-v1:d94c0f68-64bf-4036-8409-a0e761bb7ee1
+X-Response-Cache-Status: True
+Expires: Sun, 20 Apr 2025 07:50:09 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 20 Apr 2025 07:50:09 GMT
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains

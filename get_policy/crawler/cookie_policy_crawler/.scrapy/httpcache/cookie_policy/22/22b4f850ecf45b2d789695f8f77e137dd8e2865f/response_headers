@@ -1,0 +1,43 @@
+Date: Sun, 20 Apr 2025 07:50:16 GMT
+Server: Apache
+Access-Control-Allow-Methods: GET,POST
+Access-Control-Allow-Methods: GET,POST
+Access-Control-Allow-Headers: Content-Type, Authorization
+Access-Control-Allow-Headers: Content-Type, Authorization
+Content-Security-Policy: upgrade-insecure-requests;
+Content-Security-Policy: upgrade-insecure-requests;
+Cross-Origin-Embedder-Policy: unsafe-none; report-to='default'
+Cross-Origin-Embedder-Policy: unsafe-none; report-to='default'
+Cross-Origin-Embedder-Policy-Report-Only: unsafe-none; report-to='default'
+Cross-Origin-Embedder-Policy-Report-Only: unsafe-none; report-to='default'
+Cross-Origin-Opener-Policy: unsafe-none
+Cross-Origin-Opener-Policy: unsafe-none
+Cross-Origin-Opener-Policy-Report-Only: unsafe-none; report-to='default'
+Cross-Origin-Opener-Policy-Report-Only: unsafe-none; report-to='default'
+Cross-Origin-Resource-Policy: cross-origin
+Cross-Origin-Resource-Policy: cross-origin
+Permissions-Policy: accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()
+Permissions-Policy: accelerometer=(), autoplay=(), camera=(), cross-origin-isolated=(), display-capture=(self), encrypted-media=(), fullscreen=*, geolocation=(self), gyroscope=(), keyboard-map=(), magnetometer=(), microphone=(), midi=(), payment=*, picture-in-picture=*, publickey-credentials-get=(), screen-wake-lock=(), sync-xhr=*, usb=(), xr-spatial-tracking=(), gamepad=(), serial=()
+Referrer-Policy: strict-origin-when-cross-origin
+Referrer-Policy: strict-origin-when-cross-origin
+Strict-Transport-Security: max-age=63072000
+Strict-Transport-Security: max-age=63072000
+X-Content-Security-Policy: default-src 'self'; img-src *; media-src * data:;
+X-Content-Security-Policy: default-src 'self'; img-src *; media-src * data:;
+X-Content-Type-Options: nosniff
+X-Content-Type-Options: nosniff
+X-Frame-Options: SAMEORIGIN
+X-Frame-Options: SAMEORIGIN
+X-Permitted-Cross-Domain-Policies: none
+X-Permitted-Cross-Domain-Policies: none
+Link: <https://esim.monster/wp-json/>; rel="https://api.w.org/", <https://esim.monster/wp-json/wp/v2/pages/1654>; rel="alternate"; title="JSON"; type="application/json", <https://esim.monster/?p=1654>; rel=shortlink, </wp-content/cache/minify/8e4e0.default.include.91850a.js>; rel=preload; as=script
+Pragma: public
+Cache-Control: max-age=3600, public
+Cache-Control: max-age=300
+Content-Encoding: gzip
+Vary: Accept-Encoding,User-Agent
+Last-Modified: Sun, 20 Apr 2025 07:50:21 GMT
+Etag: "b129f79ae0d5e167d92936a2ea1fb3af"
+Expires: Sun, 20 Apr 2025 07:55:16 GMT
+Access-Control-Allow-Origin: *
+Content-Type: text/html; charset=UTF-8

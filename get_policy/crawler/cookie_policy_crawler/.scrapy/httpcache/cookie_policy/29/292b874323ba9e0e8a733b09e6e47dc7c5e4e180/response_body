@@ -1,0 +1,22 @@
+User-agent: *
+Allow: /
+Disallow: /assets/private/*
+Disallow: /public/1701/private/*
+Disallow: /public/1701/upload/files/adherents/*
+Disallow: /public/1701/upload/images/adherents/*
+Disallow: /public/1701/upload/images/photo-profil/*
+Disallow: /public/1701/upload/images/photo-identite/*
+Disallow: /public/1701/upload/images/photo-licence/*
+Disallow: /public/1701/upload/files/photo-licence/*
+Disallow: /public/1701/upload/images/confidentiel/*
+Noindex: /connexion
+Noindex: /assets/private/*
+Noindex: /public/1701/private/*
+Noindex: /public/1701/upload/files/adherents/*
+Noindex: /public/1701/upload/images/adherents/*
+Noindex: /public/1701/upload/images/photo-profil/*
+Noindex: /public/1701/upload/images/photo-identite/*
+Noindex: /public/1701/upload/images/photo-licence/*
+Noindex: /public/1701/upload/files/photo-licence/*
+Noindex: /public/1701/upload/images/confidentiel/*
+Sitemap : https://escbasket.fr/sitemap.xml

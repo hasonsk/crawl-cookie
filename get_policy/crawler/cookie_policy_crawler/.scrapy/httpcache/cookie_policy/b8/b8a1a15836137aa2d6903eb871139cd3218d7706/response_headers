@@ -1,0 +1,14 @@
+Content-Length: 0
+Location: https://www.microsoft.com/vi-vn/privacy/robots.txt
+Strict-Transport-Security: max-age=31536000
+X-Envoy-Upstream-Service-Time: 1
+X-Received-Host: www.microsoft.com
+X-Azure-Ref: 20250420T075010Z-r16c6d6676dkkmwchC1HKGh5qg000000073g000000003yhs
+Expires: Sun, 20 Apr 2025 07:50:10 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 20 Apr 2025 07:50:10 GMT
+Tls_Version: tls1.3
+Ms-Cv: CASMicrosoftCV1a8ec5bb.0
+Ms-Cv-Esi: CASMicrosoftCV1a8ec5bb.0
+X-Rtag: Cascade_Geo

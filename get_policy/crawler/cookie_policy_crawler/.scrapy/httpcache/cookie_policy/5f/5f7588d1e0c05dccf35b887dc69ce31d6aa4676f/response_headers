@@ -1,0 +1,14 @@
+Date: Sun, 20 Apr 2025 07:50:12 GMT
+Content-Type: text/plain
+Vary: Accept-Encoding
+Vary: Accept-Encoding
+Last-Modified: Sat, 19 Apr 2025 07:13:23 GMT
+Cache-Control: public, max-age=31536000
+Access-Control-Allow-Origin: *
+Access-Control-Request-Method: GET,OPTIONS
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Varnish: 536729492 539395627
+Age: 22484
+Section-Io-Cache: Hit
+Content-Encoding: gzip
+Section-Io-Id: 79dcd03f0c82ce0015aa06b46167acb0

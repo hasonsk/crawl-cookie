@@ -1,0 +1,11 @@
+X-Powered-By: PHP/7.4.33
+Cache-Control: no-cache, no-store, must-revalidate
+Pragma: no-cache
+Expires: 0
+Content-Type: text/plain; charset=utf-8
+Etag: "2529392-1745127678;br"
+X-Litespeed-Cache: hit
+Content-Encoding: br
+Vary: Accept-Encoding
+Date: Sun, 20 Apr 2025 07:50:10 GMT
+Alt-Svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"

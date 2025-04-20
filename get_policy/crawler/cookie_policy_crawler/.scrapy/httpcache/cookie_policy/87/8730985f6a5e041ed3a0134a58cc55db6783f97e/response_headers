@@ -1,0 +1,21 @@
+Date: Sun, 20 Apr 2025 07:50:07 GMT
+Content-Type: text/plain; charset=utf-8
+Cache-Control: s-maxage=10800, max-age=0
+Etag: W/"70fe6e66a88f910d4ff8bdb4cd5c4bc9"
+Last-Modified: Tue, 15 Apr 2025 09:29:47 GMT
+Strict-Transport-Security: max-age=31536000
+Cache-Tag: P-25901419,SS-49641696244,PGS-ALL,SW-0
+Content-Security-Policy: upgrade-insecure-requests
+Edge-Cache-Tag: P-25901419,SS-49641696244,PGS-ALL,SW-0
+X-Hs-Cache-Control: s-maxage=10800, max-age=0
+X-Hs-Cf-Cache-Status: REVALIDATED
+X-Hs-Cfworker-Meta: {"contentType":"robots.txt"}
+X-Hs-Hub-Id: 25901419
+X-Hs-Prerendered: Tue, 15 Apr 2025 09:29:47 GMT
+Set-Cookie: __cf_bm=j163ti51iPpOOrEgxmh6PfGKazzf9URnE4qohk3k63s-1745135407-1.0.1.1-TnplRquVvFGbBM7SPDYBD7sMk0REnpbTGRXrT5IWu0Jz.KeyBpx6NCJa6xd_qRPuwhzY0v_sF2395mNvIBKi53dr_oMZEcVomNyAaO94ny8; path=/; expires=Sun, 20-Apr-25 08:20:07 GMT; domain=.manpower.manpowergroup.pt; HttpOnly; Secure; SameSite=None
+Set-Cookie: _cfuvid=fSexiPn7ejqYIbrX8.NaJ_JrYUM_OibC5O2HwcDvsx8-1745135407729-0.0.1.1-604800000; path=/; domain=.manpower.manpowergroup.pt; HttpOnly; Secure; SameSite=None
+Vary: Accept-Encoding
+Server: cloudflare
+Cf-Ray: 93330c895ca4e204-MRS
+Content-Encoding: br
+Alt-Svc: h3=":443"; ma=86400

@@ -1,6 +1,10 @@
 # Ignore specific CSV files
 data/crawled/all_urls.csv
 data/crawled/combined_urls.csv
+data/raws/
+data/crawled/check_consent/
+data/crawled/check_policy/
+data/crawled/get_policy/
 
 # Ignore the dataset zip file
 data/crawled/dataset_5_800_000.zip
@@ -16,3 +20,5 @@ data/crawled/filtered/
 ./data/crawled/*.log
 
 *.pyc
+
+get_policy/crawler/openwpm

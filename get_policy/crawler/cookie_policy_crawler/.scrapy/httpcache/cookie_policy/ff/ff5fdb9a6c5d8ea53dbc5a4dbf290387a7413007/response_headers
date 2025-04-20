@@ -1,0 +1,14 @@
+Date: Sun, 20 Apr 2025 07:50:22 GMT
+Content-Type: text/html; charset=UTF-8
+Server: cloudflare
+X-Powered-By: PHP/7.2.34
+Vary: accept-encoding
+Cache-Control: no-cache
+X-Served-By: espana.gastronomia.com
+Cf-Cache-Status: DYNAMIC
+Content-Encoding: zstd
+Set-Cookie: PHPSESSID=d0d6fb9f8524b51981895a131878bffb; Path=/; Domain=gastronomia.com; Max-Age=86400; Expires=Mon, 21 Apr 2025 07:50:21 GMT
+Set-Cookie: hl=es; Path=/; Max-Age=31536000; Expires=Mon, 20 Apr 2026 07:50:21 GMT
+Set-Cookie: newsletter=1; HttpOnly; Path=/; Max-Age=86400; Expires=Mon, 21 Apr 2025 07:50:21 GMT
+Cf-Ray: 93330cdfad7403b3-HKG
+Alt-Svc: h3=":443"; ma=86400

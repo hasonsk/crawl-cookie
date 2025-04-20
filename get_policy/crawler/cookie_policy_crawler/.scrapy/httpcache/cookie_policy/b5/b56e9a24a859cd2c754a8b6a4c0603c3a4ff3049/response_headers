@@ -1,0 +1,17 @@
+Date: Sun, 20 Apr 2025 07:50:05 GMT
+Content-Type: text/plain
+Content-Encoding: zstd
+Cf-Ray: 93330c79f9f0c6e5-SIN
+Cache-Control: max-age=86400
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Last-Modified: Sun, 20 Apr 2025 07:50:05 GMT
+Cf-Cache-Status: EXPIRED
+Server-Timing: cfCacheStatus;desc="EXPIRED"
+Server-Timing: cfL4;desc="?proto=TCP&rtt=57944&min_rtt=57892&rtt_var=21747&sent=4&recv=5&lost=0&retrans=0&sent_bytes=2819&recv_bytes=935&delivery_rate=49747&cwnd=229&unsent_bytes=0&cid=8b703bf06d304802&ts=644&x=0"
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=n63RmmgaQGcP0sW63N0KmR7ztG6%2BecGNLO%2FjIAcFFAH5X%2FwpCjR2OeEaHnjj628as8aLMF8jMC9zolUSxA3P%2F7SciBmctYNSmHNvkfFkKyi7aefyKlNAY0YTF8ImHyo1WCM%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=15552000; preload
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400

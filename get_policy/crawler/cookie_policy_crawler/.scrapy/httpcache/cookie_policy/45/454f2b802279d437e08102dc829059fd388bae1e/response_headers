@@ -1,0 +1,9 @@
+Server: nginx
+Date: Sun, 20 Apr 2025 07:50:21 GMT
+Content-Type: text/plain; charset=UTF-8
+Cache-Control: max-age=2592000, public
+Expires: Tue, 20 May 2025 07:50:21 GMT
+Vary: Accept-Encoding
+X-Powered-By: WP Rocket/3.13.2
+Strict-Transport-Security: max-age=31536000; includeSubdomains; preload
+Content-Encoding: br

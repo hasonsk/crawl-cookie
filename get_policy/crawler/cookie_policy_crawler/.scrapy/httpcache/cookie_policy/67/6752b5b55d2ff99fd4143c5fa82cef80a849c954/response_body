@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Política de privacidade e cookies </title>
+
+    <link rel="icon" type="image/png" href="../static/img/logo.png"/>
+
+    <link rel="stylesheet" type="text/css" href="../static/css/importfont.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/footer.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/warnings.css">
+
+    <link rel="stylesheet" type="text/css" href="../static/css/responsive/navbar-responsive.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/responsive/footer-responsive.css">
+    <link rel="stylesheet" type="text/css" href="../static/css/responsive/pages/warnings-responsive.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <div id="register-overlay"></div>
+            <div id="register-popup">
+                <div id="img-back">
+                    <img src="../static/img/fechar.png" id="exit" onclick="exitPopup()">
+                </div>
+                <button onclick="location.href = '/register/company'"> Quero cadastrar vagas </button>
+                <button onclick="location.href = '/vacancies/company'" id="company-button"> Quero me canditar para vagas </button>
+            </div>
+                
+                            <div id="company-logo-infos">
+                    <img src="../static/img/logo.png" id="logo" onclick="location.href = '/'" style="cursor: pointer; width: 140px;">
+                    <div id="links">
+                        <a href="/"> Início </a> |
+                        <a href="/vacancy/all?page=1"> Vagas </a> |
+                        <a href="/ticket"> Contato </a>
+                    </div>
+                </div>
+                <div id="buttons-infos-user">
+                    <button id="register" onclick="popupOn()"> Registrar-se </button>
+                    <button onclick="location.href = '/login'" id="btn-ult"> Conectar-se </button>
+                </div>
+                    </nav>
+    </header>
+
+    <div id="menu-list">
+        <ul id="list-menu-list">
+        </ul>
+    </div>
+
+    <main>
+        <div id="warnings-container">
+            <div id="warnings-title">
+                <img src="../static/img/logo.png" style="align-self: left;">
+                <div id="warning-type">
+                    <button onclick="window.location.href = '/warnings?type=datapriv';" style="border-radius: 5px 0 0 5px;" > Política de privacidade </button>
+                    <button onclick="window.location.href = '/warnings?type=cookies';" style="border-radius: 0 5px 5px 0;"  class="selected" > Política de cookies </button>
+                </div>
+                <h2 style="margin-top: 20px;">  Política de Cookies  </h2>
+            </div>
+
+            <br>
+
+            <div id="warnings-content">
+                                    <br>
+                    <p> Utilizamos Cookies e Sessões para garantir melhor usabilidade ao usuário. A fim de aumentar o nível de transparência seguindo a LGPD, foi-se criado a presente Política de Cookies. </p>
+                    <br>
+                    <h3> O que são "Cookies" e "Sessões"? </h3>
+                    <br>
+                    <p> Cookies são arquivos ou informações que podem ser armazenadas em seu computador (ou outro dispositivo conectado à Internet, como smartphones ou tablets) quando você visita o nosso site. Um cookie geralmente contém o nome do site que o originou, o tempo de vida do cookie (ou seja, por quanto tempo permanecerá em seu dispositivo) e um valor, que geralmente é um número único gerado aleatoriamente. </p>
+                    <p> As sessões, por outro lado, são armazenadas no servidor. Optamos, por segurança, utilizar sessões em grande maioria. </p>
+                    <br> 
+                    <h3> Tipos de Cookies </h3>
+                    <br>
+                    <p> Existem cookies persistentes e os não persistentes. Os persistentes permanecem no computador mesmo após o desligamento, enquanto os não persistentes são apagados assim que você sai do navegador. </p>
+                    <br>
+                    <h3> Para que usamos </h3>
+                    <br>
+                    <p> Os cookies e sessões facilitam o tráfego de dados, assim como permite que o site mantenha o usuário logado caso ele queira mesmo após o desligamento do computador. </p>
+                    <br>
+                    <h3> Como apagar e controlar os Cookies </h3>
+                    <br>
+                    <p> A maioria dos navegadores de Internet são configurados para aceitar automaticamente os cookies. Você pode alterar as configurações para bloquear cookies ou alertá-lo quando um cookie estiver sendo enviado para seu dispositivo. Existem várias formas de gerenciar cookies. Consulte as instruções do seu navegador ou a seção de ajuda para saber mais sobre como ajustar ou alterar as configurações do seu navegador. </p>
+                    <p> Desabilitar os cookies que utilizamos, pode impactar sua experiência em nosso site, por exemplo, você talvez não possa visitar certas áreas de uma página do nosso site ou talvez não receba informações personalizadas quando visitar uma página do nosso site. </p>
+                    <p> Caso você use dispositivos diferentes para visualizar e acessar o nosso site (por exemplo, computador, smartphone, tablet, etc.) deve assegurar-se de que cada navegador de cada dispositivo está ajustado para atender suas preferências quanto aos cookies. </p>
+                    <br>
+                    <p> Última atualização: 24/01/2024. </p>
+                            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div id="footer-main">
+            <div id="logo-footer">
+                <img src="../static/img/prefeitura-logo-atual.png">
+            </div>
+            <div id="init">
+                <h3> Links </h3>
+                <ul style="cursor: pointer;">
+                    <li onclick="window.location.href = '/'"> Início </li>
+                    <li onclick="window.location.href = '/vacancy/all?page=0'"> Vagas </li>
+                    <li onclick="window.location.href = '/login'"> Acesso </li>
+                    <li onclick="window.location.href = '/register/client'"> Registro </li>
+                </ul>
+            </div>
+            <div id="about-us">
+                <h3 style="right: 40px;"> Sobre nós </h3>
+                <ul>
+                    <li style="cursor: pointer;" onclick="window.open('https://capivari.sp.gov.br/portal/', '_blank')"> Prefeitura de Capivari </li>
+                    <li style="cursor: pointer;" onclick="window.open('https://capivari.sp.gov.br/portal/secretarias/desenvolvimento-economico-e-emprego', '_blank')"> SDE </li>
+                </ul>
+            </div>
+            <div id="contato">
+                <p style="display: none; margin-bottom: 10px;"> Prefeitura municipal - Capivari </p>
+                <div id="icons-redes">
+                    <img src="../static/img/instagram.png" style="cursor: pointer;" onclick="window.open('https://www.instagram.com/prefeituracapivari/', '_blank')">
+                    <img src="../static/img/facebook.png" style="cursor: pointer;" onclick="window.open('https://www.facebook.com/PrefeituradeCapivari/?locale=pt_BR', '_blank')">
+                </div>
+                <button onclick="window.location.href = '/ticket'"> Fale Conosco </button>
+            </div>
+        </div>
+        <div id="footer-copy">
+            <p> &copy 2023 Copyright - Direitos reservados ao ganha-tempo municipal </p>
+        </div>
+    </footer>
+    
+    <script src="../static/js/popup-blur.js"></script>
+    <script src="../static/js/hamburguer-menu.js"></script>
+</body>
+</html>

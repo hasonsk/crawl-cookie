@@ -1,0 +1,17 @@
+Content-Type: text/html; charset=UTF-8
+Date: Sun, 20 Apr 2025 07:50:12 GMT
+Server: Apache
+Content-Security-Policy: frame-ancestors https://*.smartassist.ai https://*.kore.ai https://*.korebots.com https://*.kore.ai https://*.kore.com https://bots.kore.ai
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: fullscreen 'none'
+Last-Modified: Thu, 17 Apr 2025 14:02:31 GMT
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: no-referrer-when-downgrade
+X-Permitted-Cross-Domain-Policies: none
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 50e34eb95e2df1a54ef45baf53d8856a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HAN50-P1
+X-Amz-Cf-Id: VT2aYZ9zosn8pFZWz_W6QPEsAJ8lJnXlVpiXn-2zfXT2CpeN2QGH_Q==

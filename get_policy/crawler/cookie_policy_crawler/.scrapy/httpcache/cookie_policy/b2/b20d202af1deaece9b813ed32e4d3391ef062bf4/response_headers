@@ -1,0 +1,24 @@
+Date: Sun, 20 Apr 2025 07:50:09 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: zstd
+Cf-Ray: 93330c8e4d7404d7-HKG
+Vary: Accept-Encoding
+Server-Timing: wp-before-template;dur=348.53
+Server-Timing: cfL4;desc="?proto=TCP&rtt=29730&min_rtt=25926&rtt_var=13583&sent=9&recv=7&lost=0&retrans=0&sent_bytes=4819&recv_bytes=1277&delivery_rate=115052&cwnd=250&unsent_bytes=0&cid=8be3073117b68395&ts=1877&x=0"
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Pre-Cognitive-Push: Enabled
+Quantum-Flux-Capacity: Omega
+Strict-Transport-Security: max-age=15552000; preload
+Cache-Control: public, no-cache
+Referrer-Policy: strict-origin-when-cross-origin
+X-Grid-Srcache-Ttl: 2592000
+X-Grid-Srcache-Fetch: HIT
+X-Grid-Srcache-Store: BYPASS
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=jLV4jXjIsSGZ8geJY3rBv6U4zndRvSQGwjtAvEjA9nCu7vjLCj%2BcYkp%2FEGMCyDmeJNnVjBG9h5o9bAAx5STaN6NqIGciXPxVuilGp7AE8gog2BHIQrdqUMdaTxuFx6o%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+X-Supervisor: Carlos Longarela https://tabernawp.com/
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400

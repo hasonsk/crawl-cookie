@@ -1,0 +1,269 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<title>Política de Privacidade e Cookies - Espaço Iris</title>
+<meta name="description" content="">
+<meta name="language" content="PT-BR" />	
+<meta name="robots" content="INDEX, FOLLOW" />
+<meta name="googlebot" content="all" />
+<meta property="og:title" content="Política de Privacidade e Cookies" />
+<meta property="og:description" content="" />
+<meta property="og:url" content="https://espacoiris.com.br/politica-de-privacidade-e-cookies/" />
+
+<meta property="og:image" content="https://espacoiris.com.br/fotos_itens/32380280134/og_14-07-2021-14-57-09.JPG"/>
+
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Espaço Iris" />
+<meta name="viewport" content="width=device-width">
+<link rel="shortcut icon" href="https://espacoiris.com.br/favicon.ico"> 
+<link rel="canonical" href="https://espacoiris.com.br/politica-de-privacidade-e-cookies/">
+<link rel="alternate" hreflang="x-default" href="https://espacoiris.com.br/politica-de-privacidade-e-cookies/">
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<link href="https://espacoiris.com.br/estilos-v1.css" rel="stylesheet" type="text/css">
+<style>
+.texto input {-webkit-transition-duration:.20s;color:#fff;text-decoration:none;background:#0269B8;padding:15px;padding-bottom:10px;padding-top:10px;font-family:'roboto';font-size:16px;border-radius:3px;border:0px; width:auto !important}
+.texto input:hover {-webkit-transition-duration:.20s;color:#fff;text-decoration:none;background:#000;cursor:pointer;border:0px;}
+.texto i { color:#008FE2 !important; font-size:14px; margin-right:10px !important; }
+</style>
+</head>
+<body>
+
+<link href="https://espacoiris.com.br/bootstrap/css/bootstrap.css" rel="stylesheet" media="screen">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt" crossorigin="anonymous">
+
+<!-- JavaScripts -->
+<script src="https://espacoiris.com.br/js/jquery-1.10.2.min.js"></script>
+<link href="https://espacoiris.com.br/menu.css" rel="stylesheet" type="text/css">
+
+<div class="whatsapp-fixed"><a href="https://api.whatsapp.com/send?l=pt&phone=5511988407957" target="new" ><img src="https://espacoiris.com.br/whatsapp.png" title="Chamar no Whatsapp"/></a></div>
+
+
+<script type='text/javascript'>
+
+function removeLocationHash(){
+    var noHashURL = window.location.href.replace(/#.*$/, '');
+    window.history.replaceState('', document.title, noHashURL) 
+}
+window.addEventListener("popstate", function(event){
+    removeLocationHash();
+});
+window.addEventListener("hashchange", function(event){
+    event.preventDefault();
+    removeLocationHash();
+});
+window.addEventListener("load", function(){
+    removeLocationHash();
+});
+
+</script>
+
+
+
+<div id="inicio" style="height:10px; width:100%;"></div>
+
+<div class="main-header">
+
+<div class="section-cotent">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12">
+<div class="posicao_logo"><a href="https://espacoiris.com.br/"><img class="logotipo_superior" src="https://espacoiris.com.br/logotipo.png" alt="Logotipo" /><img class="logotipo_superior_small" src="https://espacoiris.com.br/logotipo-small.png" alt="Logotipo"></a></div>
+
+
+
+<ul class="page-roll ul-menu hidden-xs hidden-sm hidden-md">
+
+<li class="li-menu"><a href="https://espacoiris.com.br/#inicio" class="external">INICIO</a></li>
+<li class="li-menu"><a href="https://espacoiris.com.br/#espaco" class="external">O Espa&ccedil;o</a></li>
+<li class="li-menu"><a href="https://espacoiris.com.br/#especialidades" class="external">Especialidades</a></li>
+<li class="li-menu"><a href="https://espacoiris.com.br/#agendamento" class="external">Agendamento</a></li>
+<li class="li-menu li-last"><a href="https://espacoiris.com.br/#contato" class="external">Fale Conosco</a></li>
+
+</ul>
+
+
+
+
+
+
+<div class="page-roll responsive-menu visible-md visible-xs visible-sm">
+<a href="#" class="toggle-menu"><i class="fas fa-bars"></i></a>
+<div class="menu_responsivo" style="margin-top:5px; padding-top:0px;">
+
+
+<a href="https://espacoiris.com.br/#inicio" class="external"><div class="menu-link-simple">Inicio</div></a>
+<a href="https://espacoiris.com.br/#espaco" class="external"><div class="menu-link-simple">O Espa&ccedil;o</div></a>
+<a href="https://espacoiris.com.br/#especialidades" class="external"><div class="menu-link-simple">Especialidades</div></a>
+<a href="https://espacoiris.com.br/#agendamento" class="external"><div class="menu-link-simple">Agendamento</div></a>
+<a href="https://espacoiris.com.br/#contato" class="external"><div class="menu-link-simple">Contatos</div></a>
+
+
+</div>
+</div>
+
+
+
+
+</div>
+
+
+</div>
+</div>
+</div>
+
+
+
+</div>
+
+
+<script type='text/javascript'>
+$(window).load(function(){
+var offset = 60;
+var $mainheader = $('.main-header');
+$(document).on('scroll', function () {
+if (offset <= $(window).scrollTop()) {
+$mainheader.addClass('fixar');
+} else {
+$mainheader.removeClass('fixar');
+}
+});
+});
+
+
+$(window).load(function(){
+var offset = 61;
+var $mainheader = $('.main-header');
+$(document).on('scroll', function () {
+if (offset <= $(window).scrollTop()) {
+$mainheader.addClass('fixar_volta');
+} else {
+$mainheader.removeClass('fixar_volta');
+}
+});
+}); 
+</script>
+
+
+<script type='text/javascript'>
+
+function removeLocationHash(){
+    var noHashURL = window.location.href.replace(/#.*$/, '');
+    window.history.replaceState('', document.title, noHashURL) 
+}
+window.addEventListener("popstate", function(event){
+    removeLocationHash();
+});
+window.addEventListener("hashchange", function(event){
+    event.preventDefault();
+    removeLocationHash();
+});
+window.addEventListener("load", function(){
+    removeLocationHash();
+});
+
+</script>
+
+<div id="aba_1"></div>
+<div class="section-cotent">
+<div class="container">
+<div class="row">
+<div class="col-md-12">
+<h1 class="titulo wow fadeInUpSmall" style="animation-delay:0.2s;">Política de Privacidade e Cookies</h1>
+</div>
+</div>
+</div>
+</div>
+
+
+<div class="section-cotent" style="overflow:hidden">
+<div class="container">
+<div class="row">
+<div class="col-md-12 text-left">
+
+
+
+<div class="texto wow fadeInUpSmall" style="margin-bottom:30px; animation-delay:0.4s;"><div class="wow fadeInDownSmallSmall">Seja bem-vindo &agrave; Pol&iacute;tica de Privacidade e de Cookies do Espa&ccedil;o Iris.<br /><br />o Espa&ccedil;o Iris valoriza a privacidade de seus usu&aacute;rios e, atrav&eacute;s desta Pol&iacute;tica de Privacidade, demonstra seu compromisso em proteger a privacidade e dados pessoais de nossos usu&aacute;rios ao coletar, tratar e armazenar informa&ccedil;&otilde;es.<br /><br /><br /><strong>DADOS COLETADOS<br /></strong><br />As seguintes informa&ccedil;&otilde;es s&atilde;o coletadas, recebidas e armazenadas pelo Espa&ccedil;o Iris:<br /><br />Atendimento ao cliente: caso voc&ecirc; precise entrar em contato com o nosso departamento de atendimento ao cliente, o Espa&ccedil;o Iris pode coletar as informa&ccedil;&otilde;es pessoais necess&aacute;rias para atender seu pedido e contat&aacute;-lo, bem como informa&ccedil;&otilde;es sobre suas comunica&ccedil;&otilde;es com o Espa&ccedil;o Iris;<br /><br />Endere&ccedil;os IP, cookies e identificadores: seu endere&ccedil;o IP e outros dados relativos &agrave; sua conex&atilde;o poder&atilde;o ser utilizados para personalizar os nossos servi&ccedil;os e ajudar a compreender como os usu&aacute;rios utilizam o sites. Al&eacute;m disso, o Espa&ccedil;o Iris pode coletar informa&ccedil;&otilde;es que poder&atilde;o ser utilizadas no site por meio de tecnologias como tags, cookies e pixels, independentemente de cadastro do usu&aacute;rio.<br /><br />Informa&ccedil;&otilde;es coletadas automaticamente: quando voc&ecirc; acessa os Sites ou servi&ccedil;os de terceiros, o Espa&ccedil;o Iris pode receber e registrar informa&ccedil;&otilde;es de seu navegador ou dispositivo em nossos servidores, como por exemplo Identificar dados de localiza&ccedil;&atilde;o recebidos a partir dos sensores do dispositivo. Al&eacute;m desses dados, tamb&eacute;m podemos coletar de dados sobre publicidade no dispositivo, incluindo cliques efetuados a partir dele, impress&otilde;es e tempo de perman&ecirc;ncia em publicidade. o Espa&ccedil;o Iris pode permitir que terceiros, tais como prestadores de servi&ccedil;o de publicidade e estat&iacute;stica, coletem quaisquer das informa&ccedil;&otilde;es especificadas neste item, utilizando esse tipo de tecnologia diretamente nos sites da empresa.<br /><br /><br /><strong>DA PROTE&Ccedil;&Atilde;O DOS DADOS<br /></strong><br />O&nbsp;Espa&ccedil;o Iris n&atilde;o compartilha, aluga ou vende informa&ccedil;&otilde;es pessoais para outras pessoas ou empresas. Os an&uacute;ncios exibidos em nossa plataforma cont&eacute;m apenas as informa&ccedil;&otilde;es de contato de seu respectivo anunciante, como site, e-mail, telefone e Whatsapp. N&atilde;o captamos informa&ccedil;&otilde;es dos usu&aacute;rios via formul&aacute;rios.<br /><br />N&oacute;s realizamos periodicamente todas as medidas para que seus dados permane&ccedil;am em seguran&ccedil;a e n&atilde;o sejam acessados por terceiros de nenhuma esp&eacute;cie, mediante a ado&ccedil;&atilde;o das t&eacute;cnicas que estejam dispon&iacute;veis no mercado atualmente.<br /><br /><br /><strong>COOKIES E OUTROS MARCADORES<br /></strong><br />Os Cookies s&atilde;o pequenos arquivos de texto que s&atilde;o enviados e armazenados no seu computador. Servem para reconhecer, acompanhar e armazenar dados relacionados &agrave; sua navega&ccedil;&atilde;o na Internet. Para isso n&atilde;o ocupam praticamente nenhum espa&ccedil;o na mem&oacute;ria do seu dispositivo m&oacute;vel ou no disco r&iacute;gido do seu computador.<br /><br />Eles permitem que a&nbsp;Reis Lazer e Cia reconhe&ccedil;a o usu&aacute;rio e lembre de informa&ccedil;&otilde;es importantes que tornam a utiliza&ccedil;&atilde;o das nossas plataformas cada vez mais agrad&aacute;vel (por exemplo, lembrar as prefer&ecirc;ncia do usu&aacute;rio).<br /><br />Veja abaixo as formas de cookies utilizadas pelo Espa&ccedil;o Iris:<br /><br />Cookies Essenciais: s&atilde;o necess&aacute;rios para o funcionamento dos Sites e presta&ccedil;&atilde;o dos servi&ccedil;os a voc&ecirc;. Sem estes cookies, os Sites n&atilde;o funcionam t&atilde;o bem como n&oacute;s gostar&iacute;amos e podemos n&atilde;o ser capazes de fornecer determinados servi&ccedil;os ou recursos a eles associados.<br /><br />Cookies de Prefer&ecirc;ncias: coletam informa&ccedil;&otilde;es sobre suas escolhas e prefer&ecirc;ncias, permitindo que os nossos Sites se lembrem do idioma, localiza&ccedil;&atilde;o, dispositivo utilizado ou outras configura&ccedil;&otilde;es, para que sua experi&ecirc;ncia seja personalizada de acordo com essas prefer&ecirc;ncias.<br /><br />Cookies Anal&iacute;ticos: coletam informa&ccedil;&otilde;es sobre a utiliza&ccedil;&atilde;o dos Sites, permitindo-nos aperfei&ccedil;oar o seu funcionamento. Mostram, por exemplo, quais s&atilde;o as p&aacute;ginas mais visitadas nos Sites, ajudam-nos a registar quaisquer dificuldades que os usu&aacute;rios sintam na navega&ccedil;&atilde;o nos Sites, e mostram-nos se a nossa publicidade &eacute; eficaz ou n&atilde;o. Isso nos possibilita ver os padr&otilde;es de uso dos Sites de forma an&ocirc;nima e agregada.<br /><br />Cookies de Publicidade: s&atilde;o utilizados para fins de marketing, permitindo o direcionamento dos an&uacute;ncios que aparecem para voc&ecirc; com base nos seus interesses. O objetivo &eacute; tornar o conte&uacute;do publicit&aacute;rio mais relevante para voc&ecirc;, melhorar os relat&oacute;rios sobre o desempenho da campanha e evitar a exibi&ccedil;&atilde;o de an&uacute;ncios que voc&ecirc; j&aacute; viu.<br /><br /><br /><strong>CONTATOS:<br /></strong><br />Se voc&ecirc; tiver alguma d&uacute;vida sobre nossa Pol&iacute;tica de Privacidade, ou mesmo sobre nossos servi&ccedil;os, envie um e-mail para contato@espacoiris.com.br. Responderemos seus questionamentos no m&iacute;nimo prazo poss&iacute;vel.</div></div>
+
+
+</div>
+</div>
+</div>
+</div>
+
+
+
+<div class="section-content">
+<div class="container" >
+<div class="row">
+<div class="col-md-12 wow fadeInUp">
+<p style="margin-top:30px; margin-bottom:50px;"><a class="voltar" href="javascript:history.go(-1);">Voltar</a></p>
+</div>
+</div>
+</div>
+</div>
+
+
+
+
+<div class="section-content back-site">
+<div class="container">
+<div class="row">
+<div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 wow fadeIn">
+<p>Copyright &copy; 2025 - By <a class="agencia" href="http://sitesjundiai.com.br" target="new">Ag&ecirc;ncia Site Jundia&iacute;</a> - <a class="agencia" href="https://espacoiris.com.br/politica-de-privacidade-e-cookies/">Pol&iacute;tica de Privacidade e Cookies</a></p>
+
+</div>
+</div>
+</div>
+</div>
+
+
+    
+<script src="https://espacoiris.com.br/js/scripts.js"></script>
+<script src="https://espacoiris.com.br/formularios/js/index.js"></script>
+
+
+
+<script>
+  wow = new WOW(
+{
+boxClass: 'wow',  // default
+animateClass: 'animated', // change this if you are not using animate.css
+offset:   0,  // default
+mobile:   true,   // keep it on mobile
+live: true// track if element updates
+  }
+)
+   wow.init();
+</script>
+
+<div id="pageup"></div>
+<script type="text/javascript">
+	$("#pageup").pageup();
+</script>
+
+
+<link rel="stylesheet" type="text/css" href="https://espacoiris.com.br/js/cookieconsent.min.css" />
+<script src="https://espacoiris.com.br/js/cookieconsent.min.js"></script>
+<script>
+window.addEventListener("load", function(){
+window.cookieconsent.initialise({
+"palette": {
+"popup": {
+"background": "#000000",
+"text": "#fff"
+},
+"button": {
+"background": "#fff"
+}
+},
+"content": {
+"message": "Esse site utiliza cookies que possibilitam uma melhor experi&ecirc;ncia de navega&ccedil;&atilde;o e, ao continuar navegando, voc&ecirc; concorda com estas condi&ccedil;&otilde;es.",
+"link": "Pol&iacute;tica de Privacidade e Cookies",
+"dismiss": "Concordo",
+"href": "https://espacoiris.com.br/politica-de-privacidade-e-cookies/"
+}
+})});
+</script>
+</body>
+</html>

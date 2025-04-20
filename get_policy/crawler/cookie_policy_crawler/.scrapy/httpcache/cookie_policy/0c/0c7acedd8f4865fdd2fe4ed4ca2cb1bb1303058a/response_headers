@@ -1,0 +1,22 @@
+Date: Sun, 20 Apr 2025 07:50:09 GMT
+Server: Apache
+Set-Cookie: ml_Language=nl; path=/; domain=emportertout.fr; HttpOnly; SameSite=strict
+Set-Cookie: PHPSESSID=deleted; expires=Thu, 01-Jan-1970 00:00:01 GMT; Max-Age=0; path=/; domain=emportertout.fr; secure; HttpOnly
+Set-Cookie: PHPSESSID=fosflcl64h66orrk23j88e4va1; path=/; domain=emportertout.fr; secure; HttpOnly
+Set-Cookie: ml_Language=fr; path=/; domain=emportertout.fr; HttpOnly; SameSite=strict
+Set-Cookie: csrf-token=956171843239884bfec4c3fad4a748a1cdf4623806d48aa6ea78b3ab44245875; path=/; secure; SameSite=strict
+Strict-Transport-Security: max-age=31536000;
+X-Frame-Options: SAMEORIGIN
+Referrer-Policy: origin-when-cross-origin
+X-Content-Type-Options: no-sniff
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Pragma: no-cache
+P3P: CP="CAO PSA OUR"
+Link: https://maxcdn.bootstrapcdn.com; rel=preconnect
+Link: https://emportertout.fr; rel=preconnect
+Link: https://cdnjs.cloudflare.com; rel=preconnect
+Link: https://cdnjs.cloudflare.com; rel=preconnect
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Type: text/html; charset=UTF-8

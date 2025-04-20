@@ -1,0 +1,19 @@
+Server: nginx
+Date: Sun, 20 Apr 2025 07:50:07 GMT
+Content-Type: text/html; charset=utf-8
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 0
+Set-Cookie: tarteaucitron=; Path=/; Expires=Thu, 01 Jan 1970 00:00:00 GMT; Secure
+X-Dns-Prefetch-Control: off
+Expect-Ct: max-age=0
+X-Frame-Options: SAMEORIGIN
+X-Download-Options: noopen
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: no-referrer
+Etag: "b1e2-1di72ZzEKlbCWs9h627s/OvVTYg"
+Accept-Ranges: none
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Expires: Thu, 01 Jan 1970 00:00:01 GMT
+Cache-Control: no-cache
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload;

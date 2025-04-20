@@ -1,0 +1,23 @@
+Content-Length: 185
+Date: Sun, 20 Apr 2025 07:50:13 GMT
+Content-Type: text/plain; charset=utf-8
+Server: cloudflare
+Accept-Ranges: bytes
+Cf-Edge-Cache: cache,platform=wordpress
+X-Ua-Compatible: IE=edge
+X-Robots-Tag: noindex, follow
+Link: <https://ejslittlesister.com/wp-json/>; rel="https://api.w.org/"
+Cache-Control: public, max-age=14400
+Expires: Sun, 20 Apr 2025 04:34:15 GMT
+Etag: "53984-1745123655;br"
+X-Litespeed-Cache: hit
+Content-Encoding: br
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Frame-Options: sameorigin,SAMEORIGIN
+Setifempty: Referrer-Policy: same-origin
+X-Permitted-Cross-Domain-Policies: none
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: MISS
+Cf-Ray: 93330ca889aef540-HKG

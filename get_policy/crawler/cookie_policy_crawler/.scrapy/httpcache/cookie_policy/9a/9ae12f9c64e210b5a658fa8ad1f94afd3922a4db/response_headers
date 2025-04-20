@@ -1,0 +1,21 @@
+Content-Length: 140
+Date: Sun, 20 Apr 2025 07:50:07 GMT
+Content-Type: text/plain; charset=utf-8
+Cf-Ray: 93330c866803f8c6-SIN
+Server: cloudflare
+X-Dns-Prefetch-Control: on
+X-Ua-Compatible: IE=edge
+Link: <https://eskomvacanciesregistration.entryleveljobs.co.za/wp-json/>; rel="https://api.w.org/"
+Vary: Accept-Encoding
+X-Litespeed-Cache: hit
+Content-Encoding: gzip
+X-Turbo-Charged-By: LiteSpeed
+Cache-Control: max-age=14400
+Cf-Cache-Status: EXPIRED
+Last-Modified: Sun, 20 Apr 2025 07:50:07 GMT
+Accept-Ranges: bytes
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=%2FxjjTJtenknQLGIMD%2B1F3tQStwpGLzNd4mrI54bdlxEFWrLWpJ4tLTvoQiEq8BuUIXxvPcNOm6Ah8TNzXxHOo7EKcNMOOM9jAAui07AaCtmGaN2h%2BfFQOkvW0Krp6ABPAh2OXZsliPUZBopAGRpxq95aWj5XCvpMlHNntdBKEyeePw%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=2592000; preload
+Alt-Svc: h3=":443"; ma=86400
+Server-Timing: cfL4;desc="?proto=TCP&rtt=57634&min_rtt=57374&rtt_var=21701&sent=4&recv=5&lost=0&retrans=0&sent_bytes=2854&recv_bytes=967&delivery_rate=50196&cwnd=252&unsent_bytes=0&cid=74ffa69228df9b7c&ts=904&x=0"

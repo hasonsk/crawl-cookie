@@ -1,0 +1,23 @@
+Date: Sun, 20 Apr 2025 07:50:12 GMT
+Content-Type: text/html; charset=utf-8
+Vary: Accept-Encoding
+Vary: Origin
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 0
+X-Content-Type-Options: nosniff
+X-Permitted-Cross-Domain-Policies: none
+Referrer-Policy: strict-origin-when-cross-origin
+Content-Security-Policy: frame-ancestors 'self' emplois.sanivac.ca app.teamtailor.com
+Link: <https://assets-aws.teamtailor-cdn.com/assets/packs/js/runtime-1f45fd3b994493d619a6.js>; rel=preload; as=script; nopush,<https://assets-aws.teamtailor-cdn.com/assets/packs/js/5217-2ae580ac374aa9e4702c.js>; rel=preload; as=script; nopush,<https://assets-aws.teamtailor-cdn.com/assets/packs/js/google-tag-manager-ad3ff7d210f4d0c9db35.js>; rel=preload; as=script; nopush,<https://assets-aws.teamtailor-cdn.com/assets/packs/css/careersite-837bab29.css>; rel=preload; as=style; nopush
+Etag: W/"57d57b0088edaea36d6c37e18f0bfd07"
+Cache-Control: max-age=0, private, must-revalidate
+Set-Cookie: _tt_session=93cbd974679ff758a4f21adb4f74921f; path=/; expires=Tue, 22 Apr 2025 07:50:12 GMT; secure; HttpOnly
+X-Request-Id: f52900bc18b97cd4c68cff3d8b2446b7
+X-Runtime: 0.107198
+X-Rack-Cache: pass
+Strict-Transport-Security: max-age=63072000; includeSubDomains
+X-Varnish: 630027716
+Age: 0
+Section-Io-Cache: Miss
+Content-Encoding: gzip
+Section-Io-Id: f52900bc18b97cd4c68cff3d8b2446b7

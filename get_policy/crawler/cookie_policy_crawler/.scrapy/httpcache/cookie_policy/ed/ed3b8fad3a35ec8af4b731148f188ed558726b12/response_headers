@@ -1,0 +1,13 @@
+Server: nginx
+Date: Sun, 20 Apr 2025 07:50:06 GMT
+Content-Type: text/plain; charset=utf-8
+Vary: Accept-Encoding
+Vary: accept, content-type
+X-Hacker: Want root?  Visit join.a8c.com/slc and mention this header.
+Host-Header: WordPress.com
+X-Frame-Options: SAMEORIGIN
+X-Nc: HIT bur 177
+Content-Encoding: br
+X-Ac: 23.hkg _bur STALE
+Alt-Svc: h3=":443"; ma=86400
+Strict-Transport-Security: max-age=31536000

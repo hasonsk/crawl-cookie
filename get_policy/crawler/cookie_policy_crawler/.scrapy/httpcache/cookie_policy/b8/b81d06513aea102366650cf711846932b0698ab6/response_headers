@@ -1,0 +1,24 @@
+Date: Sun, 20 Apr 2025 07:50:18 GMT
+Content-Type: text/html; charset=UTF-8
+Cf-Edge-Cache: cache,platform=wordpress
+X-Ua-Compatible: IE=edge
+Link: <https://ejslittlesister.com/wp-json/>; rel="https://api.w.org/"
+Link: <https://ejslittlesister.com/wp-json/wp/v2/pages/20>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://ejslittlesister.com/?p=20>; rel=shortlink
+X-Litespeed-Cache-Control: public,max-age=604800
+X-Litespeed-Tag: c05_HTTP.200,c05_page,c05_URL.6b797c518fb89e541cad4a7ebe8dba37,c05_Po.20,c05_PGS,c05_
+Cache-Control: public, max-age=0
+Expires: Sun, 20 Apr 2025 07:50:18 GMT
+X-Litespeed-Cache: miss
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+X-Frame-Options: sameorigin,SAMEORIGIN
+Setifempty: Referrer-Policy: same-origin
+X-Permitted-Cross-Domain-Policies: none
+X-Content-Type-Options: nosniff
+Alt-Svc: h3=":443"; ma=86400
+Cf-Cache-Status: DYNAMIC
+Content-Encoding: zstd
+Server: cloudflare
+Set-Cookie: mailchimp_landing_site=https%3A%2F%2Fejslittlesister.com%2Fprivacy-policy%2F; SameSite=Strict; Secure; Path=/; Max-Age=2419200; Expires=Sun, 18 May 2025 07:50:17 GMT
+Cf-Ray: 93330cb93ae5f540-HKG

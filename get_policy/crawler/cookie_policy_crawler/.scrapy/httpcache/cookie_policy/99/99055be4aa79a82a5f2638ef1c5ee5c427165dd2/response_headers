@@ -1,0 +1,26 @@
+Content-Length: 52075
+Cache-Control: public, max-age=600, stale-while-revalidate=601, stale-if-error=601
+Server: Oscar Platform 0.1662.0
+X-Frame-Options: DENY
+Content-Type: text/html; charset="UTF-8"
+X-Sn-Servicetimems: 72
+X-Vcap-Request-Id: 68a41890-4f6c-404f-4f3a-397c2a2bfb09
+X-Content-Type-Options: nosniff
+Strict-Transport-Security: max-age=31536000;includeSubDomains;preload
+Etag: W/"8410c30b706086770d2111bf45077abc"
+X-Forwarded-Host: www.springeropen.com
+X-Xss-Protection: 1; mode=block
+X-Geo-Jp: 0
+Tracestate: gorouter=e88de4e23c96d3eb
+Content-Encoding: gzip
+Traceparent: 00-68a418904f6c404f4f3a397c2a2bfb09-ded70b5cb994b6d3-01
+Via: 1.1 google, 1.1 varnish, 1.1 varnish
+Accept-Ranges: bytes
+Age: 645
+Date: Sun, 20 Apr 2025 07:50:16 GMT
+X-Served-By: cache-qpg1262-QPG, cache-qpg1275-QPG
+X-Cache: HIT, MISS, MISS
+X-Cache-Hits: 0, 0
+X-Timer: S1745135416.010688,VS0,VE421
+Vary: x-cdn,x-forwarded-host,x-geo-jp,Accept-Encoding,x-oscar-cache-mode,X-Frame-Options
+Alt-Svc: h3=":443";ma=86400,h3-29=":443";ma=86400,h3-27=":443";ma=86400

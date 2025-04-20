@@ -1,0 +1,23 @@
+Date: Sun, 20 Apr 2025 07:50:19 GMT
+Server: Apache
+Strict-Transport-Security: max-age=63072000
+X-Xss-Protection: 1; mode=block
+X-Drupal-Cache: HIT
+Etag: "1745125252-1"
+Content-Security-Policy: default-src 'self'; script-src 'self' cdn.jsdelivr.net googletagmanager.com *.googletagmanager.com google-analytics.com cdnjs.cloudflare.com use.fontawesome.com s.ytimg.com *.matomo.cloud *.piktochart.com *.powerbi.com *.sharethis.com *.google.com *.gstatic.com *.facebook.com *.twitter.com *.twimg.com js-agent.newrelic.com cdn.unibuddy.co connect.facebook.net snap.licdn.com 'unsafe-inline' 'unsafe-eval' www.youtube.com; object-src 'self' ; style-src 'self' fonts.googleapis.com ws.sharethis.com 'unsafe-inline'; img-src 'self' data: events.ceu.edu *.google.com googletagmanager.com *.googletagmanager.com googleads.g.doubleclick.net ad.doubleclick.net i.ytimg.com *.matomo.cloud *.piktochart.com *.powerbi.com *.sharethis.com *.facebook.com *.twimg.com *.twitter.com *.linkedin.com www.google.at; media-src 'self' w.soundcloud.com datawrapper.dwcdn.net player.vimeo.com gifcdn.com www.youtube.com www.youtube-nocookie.com *.twitter.com www.yumpu.com; frame-src 'self' googletagmanager.com www.youtube.com www.youtube-nocookie.com ceu.my.salesforce-sites.com *.matomo.cloud *.piktochart.com *.powerbi.com *.sharethis.com *.google.com *.facebook.com *.twitter.com unibuddy.co *.unibuddy.co *.doubleclick.net ceu-edu.zoom.us w.soundcloud.com datawrapper.dwcdn.net player.vimeo.com free.timeanddate.com gifcdn.com e.issuu.com www.yumpu.com *.simplecast.com *.genial.ly *.genially.com forms.office.com; child-src 'self' googletagmanager.com www.youtube.com www.youtube-nocookie.com ceu.my.salesforce-sites.com *.matomo.cloud *.piktochart.com *.powerbi.com *.sharethis.com *.google.com *.facebook.com *.twitter.com unibuddy.co *.unibuddy.co *.doubleclick.net ceu-edu.zoom.us w.soundcloud.com datawrapper.dwcdn.net player.vimeo.com free.timeanddate.com gifcdn.com e.issuu.com www.yumpu.com *.simplecast.com *.genial.ly *.genially.com forms.office.com; font-src 'self' fonts.gstatic.com fonts.googleapis.com cdnjs.cloudflare.com use.fontawesome.com; connect-src 'self' *.matomo.cloud *.google-analytics.com bam.nr-data.net l.sharethis.com *.linkedin.com *.analytics.google.com stats.g.doubleclick.net *.doubleclick.net; report-uri /report-csp-violation; upgrade-insecure-requests
+X-Frame-Options: SAMEORIGIN
+Content-Language: en
+Link: </cookie-statement>; rel="canonical",</node/24480>; rel="shortlink"
+Cache-Control: public, max-age=0
+Last-Modified: Sun, 20 Apr 2025 05:00:52 GMT
+Expires: Sun, 19 Nov 1978 05:00:00 GMT
+Vary: Origin
+Content-Encoding: gzip
+Public-Key-Pins: pin-sha256="jDNPIoQdviZhELycQEXvXmBzJFLLM13xUlT8Jamgc0U="; pin-sha256="KVhT/NkSwnjmxDOvcy6MKwG9ak5RAgxEOV0QQBT94Bo="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E="; report-uri="https://ceuhu.report-uri.com/r/d/hpkp/reportOnly"; max-age=648000;
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Allow-Origin: https://people.ceu.edu
+Access-Control-Allow-Credentials: true
+Expect-Ct: enforce,max-age=300, report-uri=https://ceuhu.report-uri.com/r/d/ct/reportOnly
+Referrer-Policy: origin
+Content-Type: text/html; charset=utf-8

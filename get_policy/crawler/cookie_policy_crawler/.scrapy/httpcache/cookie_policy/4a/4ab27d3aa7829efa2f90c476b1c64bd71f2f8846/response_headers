@@ -1,0 +1,19 @@
+Date: Sun, 20 Apr 2025 07:50:08 GMT
+Content-Type: text/html; charset=UTF-8
+Content-Encoding: zstd
+Cf-Ray: 93330c8b3a3bf8c6-SIN
+X-Dns-Prefetch-Control: on
+X-Ua-Compatible: IE=edge
+Link: <https://eskomvacanciesregistration.entryleveljobs.co.za/wp-json/>; rel="https://api.w.org/"
+Link: <https://eskomvacanciesregistration.entryleveljobs.co.za/wp-json/wp/v2/pages/8824>; rel="alternate"; title="JSON"; type="application/json"
+Link: <https://eskomvacanciesregistration.entryleveljobs.co.za/?p=8824>; rel=shortlink
+Vary: Accept-Encoding
+X-Turbo-Charged-By: LiteSpeed
+X-Litespeed-Cache: hit
+Cf-Cache-Status: DYNAMIC
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=u6Cm4kKgIhshRXCTBOy5MTQraO5oL2qK05X9Yo9%2B2vVaxuCnNXbADlt7qPssEv7yBZed7wrnxSwTUovTJ6i39A%2FGi4pDXIpNc%2BSDwtjrzLaDerQfn72VJ9ikY3pKy7uSoUtdfmVzThMDdu0tjHeSP6Oif6YV2gAP8bvHLPH6hnO2nQ%3D%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=2592000; preload
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400
+Server-Timing: cfL4;desc="?proto=TCP&rtt=57452&min_rtt=56850&rtt_var=12524&sent=8&recv=8&lost=0&retrans=0&sent_bytes=4729&recv_bytes=1341&delivery_rate=75966&cwnd=255&unsent_bytes=0&cid=74ffa69228df9b7c&ts=1652&x=0"

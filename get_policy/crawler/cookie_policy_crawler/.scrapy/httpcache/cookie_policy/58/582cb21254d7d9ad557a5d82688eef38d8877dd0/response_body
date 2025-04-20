@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<!-- OptanonConsentNoticeStart -->
+	<script type="text/javascript" src="https://cdn.cookielaw.org/consent/018fddfe-0a60-7d58-a8e0-73e1ef38e082-test/OtAutoBlock.js" ></script>
+	<script src="https://cdn.cookielaw.org/scripttemplates/otSDKStub.js"  type="text/javascript" data-language="es" charset="UTF-8" data-domain-script="018fddfe-0a60-7d58-a8e0-73e1ef38e082-test" ></script>
+	<script type="text/javascript">
+		function OptanonWrapper() { }
+	</script>
+
+	<!-- OptanonConsentNoticeEnd -->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="description" content="Documentación de integración de <strong>PAYCOMET</strong> (Pasarela de Pagos PCI-DSS Nivel 1). Documentación de BankStore IFRAME/JET/XML con sistemas IVR y CRM externos. Módulos de pago para cobros OneClick con 3D Secure y Scoring dinámico.">
+	<meta name="keywords" content="PAYCOMET Cobros Pagos Online PCI-DSS IFRAME XML iPhone Android TPV Virtual">
+	<base href="/" />
+
+	<title>PAYCOMET API Holy Docs</title>
+	<link rel="canonical" href="https://docs.paycomet.com/es/politica-cookies">
+	<link rel="alternate" href="https://docs.paycomet.com/es/politica-cookies" hreflang="es-es">
+	<link rel="alternate" href="https://docs.paycomet.com/en/politica-cookies" hreflang="en-us">
+	<!-- Styles -->
+
+	<link href="assets/css/paycomet.all.min.css?v=1745135406" rel="stylesheet"><link href="assets/css/paycomet.css?v=1745135406" rel="stylesheet"><link href="assets/css/custom.css?v=1745135406" rel="stylesheet"><link href="assets/css/prism.css?v=1745135406" rel="stylesheet"><link href="assets/css/jquery-ui.min.css?v=1745135406" rel="stylesheet">
+	<!-- Fonts -->
+	<link href='https://fonts.googleapis.com/css?family=Raleway:100,300,400,500%7CLato:300,400' rel='stylesheet' type='text/css'>
+
+	<!-- Favicons -->
+	<link rel="apple-touch-icon" href="apple-touch-icon.png">
+	<link rel="icon" href="assets/img/favicon.png">
+	
+	<!-- Zoho -->
+	<script src="https://cdn-eu.pagesense.io/js/paycomet/7ee9e421b7e64362b08c8ab14786137c.js"></script>
+</head>
+
+<body>
+
+	<header class="site-header sticky navbar-fullwidth navbar-transparent">
+
+		<!-- Top navbar & branding -->
+		<nav class="navbar navbar-default">
+			<div class="container">
+
+				<!-- Toggle buttons and brand -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navbar" aria-expanded="true" aria-controls="navbar">
+						<span class="glyphicon glyphicon-option-vertical"></span>
+					</button>
+
+					<button type="button" class="navbar-toggle for-sidebar" data-toggle="offcanvas">
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+					<a class="navbar-brand" href="/"><img src="assets/img/logo_developers_paycomet.png" alt="PAYCOMET SDK Logo" style="max-width: 100%; max-height: 100%;"></a>
+				</div>
+				<!-- END Toggle buttons and brand -->
+				
+
+				<!-- Top navbar -->
+				<div id="navbar" class="navbar-collapse collapse" aria-expanded="true" role="banner">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="active"><a href="/">Inicio</a></li>
+						<li><a href="https://github.com/PAYCOMET" target="_blank">GitHub</a></li>
+						<li><a href="https://lens.paycomet.com/es" target="_blank">Soporte</a></li>
+						<li class="hero"><a href="https://www.paycomet.com/prueba-ahora">Alta en <strong>PAYCOMET</strong></a></li>
+						<li><a class="menuLang" href="/en/politica-cookies">English</a></li>
+						<li>
+							<div styling-function="removePlaceholder" id="searchForm" class="gcse-search-wrapper">
+								<gcse:search gname="PAYCOMET"></gcse:search>
+							</div>
+						</li>
+					</ul>
+				</div>
+				<!-- END Top navbar -->
+
+			</div>
+		</nav>
+		<script>
+		</script>
+		<!-- END Top navbar & branding -->
+		<!-- #337ab7 -->
+	</header>
+
+
+    <main class="container">
+		<div class="row">
+			<aside class="col-md-3 col-sm-3 sidebar" id="asiderow">
+				<ul class="sidenav dropable sticky">
+					<li>
+<a href="javascript:void(0)" class="has-child">Inicio</a>
+<ul>
+<li><a href="/es/inicio/introduccion">Introducción</a></li>
+<li><a href="/es/inicio/configuracion">Configuración del producto</a></li>
+<li><a href="/es/inicio/seguimiento">Notificación de la Operación</a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:void(0)" class="has-child">Tarjetas</a>
+<ul>
+<li><a href="/es/tarjetas/iframe">Full screen / iframe</a></li>
+<li><a href="/es/tarjetas/jetiframe">Embebido (JET-IFRAME)</a></li>
+<li><a href="/es/tarjetas/integracion">Integración</a></li>
+<li><a href="/es/tarjetas/pagos-mit">Pagos iniciados por el comercio</a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:void(0)" class="has-child">Pagos alternativos</a>
+<ul>
+<li><a href="/es/apm/rest">Integración</a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:void(0)" class="has-child">Servicios</a>
+<ul>
+<li><a href="/es/otras-integraciones/operations">Consulta de Operaciones</a></li>
+<li><a href="/es/otras-integraciones/split-transfer-marketplace">Split TRANSFER</a></li>
+<li><a href="/es/otras-integraciones/sepa">Integración SEPA</a></li>
+<li><a href="/es/otras-integraciones/ivr">Integración I.V.R.</a></li>
+<li><a href="/es/otras-integraciones/moviles">Integración Móviles</a></li>
+<li><a href="/es/otras-integraciones/calltpv">Integración Call TPV</a></li>
+<li><a href="/es/otras-integraciones/payby">Integración PayBy</a></li>
+<li><a href="/es/otras-integraciones/proxies">Integración Proxy Reservas Hotel</a></li>
+<li><a href="/es/otras-integraciones/launchpad">Servicio LaunchPad</a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:void(0)" class="has-child">Módulos de Pago</a>
+<ul>
+<li><a href="/es/modulos-de-pago/magento">Magento</a></li>
+<li><a href="/es/modulos-de-pago/magento2">Magento 2</a></li>
+<li><a href="/es/modulos-de-pago/prestashop">PrestaShop</a></li>
+<li><a href="/es/modulos-de-pago/whmcs">WHMCS</a></li>
+<li><a href="/es/modulos-de-pago/woocommerce">WooCommerce</a></li>
+<li><a href="/es/modulos-de-pago/opencart">OpenCart</a></li>
+<li><a href="/es/modulos-de-pago/virtuemart3">VirtueMart</a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:void(0)" class="has-child">Documentación Completa</a>
+<ul>
+<li><a href="/es/integracion/rest-docs">REST</a></li>
+<li><a href="/es/integracion/xml-docs">XML</a></li>
+<li><a href="/es/integracion/get-docs">GET</a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:void(0)" class="has-child">Recursos</a>
+<ul>
+<li><a href="/es/recursos/codigos-de-error">Códigos de error</a></li>
+<li><a href="/es/recursos/monedas">Códigos de moneda</a></li>
+<li><a href="/es/recursos/lenguajes">Códigos de idioma</a></li>
+<li><a href="/es/recursos/testcards">Tarjetas de prueba</a></li>
+<li><a href="/es/recursos/metodos">Métodos de pago</a></li>
+<li><a href="/es/recursos/plantillas">Plantillas</a></li>
+<li><a href="/es/recursos/scripts">Scripts</a></li>
+<li><a href="/es/recursos/utils">Utilidades</a></li>
+<li><a href="/es/recursos/psd2-parametros">Parámetros PSD2</a></li>
+<li><a href="/es/recursos/activacion-tpv-virtual">Requisitos web para activación de TPV Virtual</a></li>
+<li><a href="/es/recursos/aft">Account Funding Transaction</a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:void(0)" class="has-child">SDK de PAYCOMET BankStore</a>
+<ul>
+<li><a href="/es/api/php">PHP</a></li>
+<li><a href="/es/api/java"><a href="https://github.com/PAYCOMET/java-bankstore" target="_blank">JAVA</a></a></li>
+<li><a href="/es/api/.NET"><a href="https://github.com/PAYCOMET/csharp-bankstore" target="_blank">.NET C#</a></a></li>
+<li><a href="/es/api/ANDROID-SDK"><a href="https://github.com/PAYCOMET/android-bankstore" target="_blank">ANDROID-SDK</a></a></li>
+<li><a href="/es/api/IOS-SDK"><a href="https://github.com/PAYCOMET/ios-bankstore" target="_blank">IOS-SDK</a></a></li>
+</ul>
+</li>
+<li>
+<a href="javascript:void(0)" class="has-child">PSD2</a>
+<ul>
+<li><a href="/es/psd2/psd2">Introducción</a></li>
+<li><a href="/es/psd2/sca">Manual operativo</a></li>
+</ul>
+</li>
+				</ul>
+			</aside>
+    <article class="col-md-9 col-sm-9 main-content" role="main">
+        <header>
+                <h1>Política de cookies</h1>
+        </header>
+            
+            <div class="legal__text js-animate-el">
+                <h2 class="h2-cookies-page">¿Qué son las cookies?</h2>
+
+                <p>Las cookies son pequeños archivos de datos que se reciben en el terminal desde el sitio web visitado y se usan para registrar ciertas interacciones de la navegación en un sitio web almacenando datos que podrán ser actualizados y recuperados. Estos archivos se almacenan en el ordenador del usuario y contienen datos anónimos que no son perjudiciales para su equipo. Se utilizan para recordar las preferencias del usuario, como el idioma seleccionado, datos de acceso o personalización de la página.</p>
+
+                <p>Las cookies también pueden ser utilizadas para registrar información anónima acerca de cómo un visitante utiliza un sitio. Por ejemplo, desde qué página web ha accedido o si ha utilizado un banner publicitario para llegar.</p>
+
+                <h2 class="h2-cookies-page">¿Por qué PAYCOMET utiliza cookies?</h2>
+
+                <p>PAYCOMET utiliza cookies estrictamente necesarias y esenciales para que usted utilice nuestro sitio web y le permitan moverse libremente, utilizar áreas seguras, opciones personalizadas, etc. Además, PAYCOMET utiliza cookies que recogen datos relativos al análisis de uso de la web. Éstas se utilizan para ayudar a mejorar el servicio al cliente, midiendo el uso y el rendimiento de la página para optimizarla y personalizarla. Nuestro sitio también puede tener enlaces de redes sociales (como Linkedin, Twitter o Facebook). PAYCOMET no controla las cookies utilizadas por estas webs externas. Para más información sobre las cookies de las redes sociales u otras webs ajenas, le aconsejamos revisar sus propias políticas de cookies.</p>
+
+                <h2 class="h2-cookies-page">¿Qué uso les damos a los diferentes tipos de cookies?</h2>
+
+
+
+
+                <table class="cookies-page-table">
+                <tr style="background:#f3f3f3;">
+                    <td><p><strong>Cookies de sesión</strong></p></td>
+                    <td><p>Las cookies de sesión son aquellas que duran el tiempo que el usuario está navegando por la página web y se borran al término.</p></td>
+                </tr>
+                <tr style="background:#fdfdfd;">
+                    <td><p><strong>Cookies persistentes</strong></p></td>
+                    <td><p>Estas cookies quedan almacenadas en el terminal del usuario por un tiempo más largo, facilitando así el control de las preferencias elegidas sin tener que repetir ciertos parámetros cada vez que se visite el sitio web.</p></td>
+                </tr>
+                <tr style="background:#f3f3f3;">
+                    <td><p><strong>Cookies propias</strong></p></td>
+                    <td> <p>Son cookies creadas por este sitio web y que solo puede leer el propio sitio. Se instalan cookies propias persistentes con las siguientes finalidades:</p><p>Técnicas: Estas cookies sirven para controlar la carga de las imágenes que aparecen en la home, en función de los parámetros que se hayan programado (tiempo, nº de veces visto, etc..). Sirven además para permitir el acceso a determinadas partes de la web y para ubicar al usuario.</p></td>
+                </tr>
+                <tr style="background:#fdfdfd;">
+                    <td><p><strong>Cookies de terceros</strong></p></td>
+                    <td> <p>Son cookies creadas por terceros y que utilizamos para diferentes servicios (p.ej. análisis del sitio web o publicidad</p></td>
+                </tr>
+                </table>
+                <br>
+                <p>Below are the third parties that can configure and access cookies (not exempt from information and consent) of your device and the purposes for which the information they store is used:</p><br>
+
+                <table class="cookies-page-table">
+                <tr>
+                    <th>Finalidad</td>
+                    <th>Descripción</td>
+                    <th>Terceros</td>
+                </tr>
+                <tr style="background:#f3f3f3;">
+                    <td><p><strong>Cookies técnicas:</strong></p></td>
+                    <td><p>Sirven para controlar el tráfico y la comunicación de datos utilizando para ello elementos de seguridad durante la navegación. También sirven para la identificación y mantenimiento de la sesión del usuario, para almacenar contenidos en la difusión de videos o sonidos y para compartir contenido con redes sociales (plug-in).</p></td>
+                    <td style="width: 125px;"><p><a href="https://policies.google.com/technologies/cookies?hl=es&gl=es#types-of-cookies" target="_blank">Google</a><br><a href="https://policies.google.com/technologies/cookies?hl=es&gl=es#types-of-cookies" target="_blank">Youtube</a><br><a href="https://www.facebook.com/policies/cookies/" target="_blank">Facebook</a><br><a href="https://help.twitter.com/es/rules-and-policies/twitter-cookies" target="_blank">Twitter</a><br><a href="https://www.linkedin.com/legal/cookie-policy" target="_blank">LinkedIn</a></p></td>
+                </tr>
+                <tr style="background:#fdfdfd;">
+                    <td><p><strong>Cookies analíticas:</strong></p></td>
+                    <td><p>Herramienta de analítica que ayuda a los sitios web a entender el modo en que los visitantes interactúan con la web. Puede utilizar un conjunto de cookies para recopilar información e informar de las estadísticas de uso de los sitios web sin identificar personalmente a los visitantes.</p></td>
+                    <td style="width: 125px;"><p><a href="https://developers.google.com/analytics/devguides/collection/analyticsjs/cookie-usage" target="_blank">Google Analytics</a><br><a href="https://policies.google.com/technologies/cookies?hl=es&gl=es#types-of-cookies" target="_blank">Youtube</a><br><a href="https://help.twitter.com/es/rules-and-policies/twitter-cookies" target="_blank">Twitter</a><br><a href="https://www.linkedin.com/legal/cookie-policy" target="_blank">Zoho</a></p></td>
+                </tr>
+                <tr style="background:#f3f3f3;">
+                    <td><p><strong>Cookies de personalización:</strong></p></td>
+                    <td><p>Herramienta  de  analítica  que  ayuda  a  los  sitios  web  a entender el modo en que los visitantes interactúan con la web. Puede utilizar un conjunto de cookies para recopilar información e informar de las estadísticas de uso de los sitios web sin identificar personalmente a los visitantes.</p></td>
+                    <td style="width: 125px;"><p>No aplica</p></td>
+                </tr>
+                <tr style="background:#fdfdfd;">
+                    <td><p><strong>Cookies publicitarias:</strong></p></td>
+                    <td><p>Las cookies publicitarias   permiten   la   gestión   de   los espacios  publicitarios  de  la  web  en  base  a  criterios concretos.   Por   ejemplo,   la   frecuencia   de   acceso,   el contenido editado, etc.</p></td>
+                    <td style="width: 125px;"><p>No aplica</p></td>
+                </tr>
+                </table>
+
+                
+                <h2 class="h2-cookies-page">¿Cómo puedo cambiar la configuración de las cookies?</h2>
+
+                <p style="margin-top: 1.5em;">Puedes seleccionar las cookies que deseas aceptar o rechazar teniendo en cuenta su finalidad.</p>
+                <p style="margin-top: 1.5em;">Si haces clic en “Guardar”, tu selección de cookies quedará registrada. Si no has seleccionado ninguna opción, al pulsar este botón de “guardar” estarás indicando que no “consientes” ninguna de las cookies, excepto las activadas por defecto.</p>
+                <p style="margin-top: 1.5em;">Desde el <a onclick="OneTrust.ToggleInfoDisplay();" >configurador de cookies</a>, puedes configurar manual e individualmente tu selección en base a tus preferencias.</p>
+
+                <a href="https://support.microsoft.com/es-es/windows/eliminar-y-administrar-cookies-168dab11-0753-043d-7c16-ede5947fc64d" target="_blank">Configuración de cookies de Internet Explorer</a><br>
+                <a href="https://support.mozilla.org/es/kb/habilitar-y-deshabilitar-cookies-sitios-web-rastrear-preferencias?redirectslug=habilitar-y-deshabilitar-cookies-que-los-sitios-we&redirectlocale=es" target="_blank">Configuración de cookies de Firefox</a><br>
+                <a href="https://support.google.com/chrome/answer/95647?hl=es" target="_blank">Configuración de cookies de Google Chrome</a><br>
+                <a href="https://www.apple.com/legal/privacy/es/cookies/" target="_blank">Configuración de cookies de Safari</a><br>
+
+                <p style="margin-top: 1.5em;">Estos navegadores están sometidos a actualizaciones o modificaciones, por lo que no podemos garantizar que se ajusten completamente a la versión de su navegador. También puede ser que utilice otro navegador no contemplado en estos enlaces como Konqueror, Arora, Flock, etc. Para evitar estos desajustes, puede acceder directamente desde las opciones de su navegador, generalmente en el menú de `Opciones´ en la sección de `Privacidad´. (Por favor, consulte la ayuda de su navegador para más información.</p>
+                
+                
+                <h2 class="h2-cookies-page">Revocación del consentimiento</h2>
+
+                <p>También es posible limitar como las webs de terceros instalan cookies en su ordenador, para evitar la recolección de datos y registro de su actividad de navegación. Para limitar el uso de cookies de terceros puede dirigirse a la web de configuración u OptOut:)</p>
+
+                <ul>
+                    <li><a href="https://tools.google.com/dlpage/gaoptout?hl=None" target="_blank">Google Analytics</a></li>
+                    <li><a href="https://support.google.com/ads/answer/7395996" target="_blank">DoubleClick</a></li>
+                    <li><a href="https://adssettings.google.com/authenticated" target="_blank">Google</a></li>
+                    <li><a href="http://www.macromedia.com/support/documentation/es/flashplayer/help/settings_manager07.html" target="_blank">Flash Cookies YouTube</a></li>
+                </ul>
+
+                <p style="margin-top: 1.5em;">Seleccione la opción “Eliminar todos los sitios” o seleccione la web específica que desee borrar y “Eliminar Sitio Web”.</p>
+
+                <p>Tenga en cuenta que si rechaza o borra las cookies de navegación de la web, no podremos mantener sus preferencias, algunas características de las páginas no estarán operativas, no podremos ofrecerle servicios personalizados y cada vez que vaya a navegar por nuestra web tendremos que solicitarle de nuevo su autorización para el uso de cookies.</p>
+
+                <p>Si aun así decide modificar la configuración de su acceso a la página web, debe saber que es posible eliminar las cookies o impedir que se registre esta información en su equipo en cualquier momento mediante la modificación de los parámetros de configuración de su navegador.</p>
+
+                <h2 class="h2-cookies-page">Entonces, ¿qué significa la información anterior?</h2>
+
+                <p>Si acepta nuestras cookies, nos permite la mejora de la web de PAYCOMET para ofrecerle un acceso óptimo y darle un servicio más eficaz y personalizado.</p>
+
+                <p>Además, usted puede configurar su navegador para establecer que sólo los sitios web de confianza o las páginas por las que está navegando en este momento puedan gestionar cookies, lo que le permite seleccionar sus preferencias.</p>
+
+                <p>Proporcionando esta política, PAYCOMET demuestra el compromiso adquirido con la legislación vigente sobre el uso de cookies, proporcionándole información para que usted pueda comprender qué tipo de cookies utilizamos y por qué lo hacemos. Con esto, pretendemos proporcionarle transparencia en cuanto a los datos tratados acerca de la navegación realizada desde su equipo en nuestra web.</p>
+
+                <p>Esta política se revisa periódicamente para asegurar su vigencia, por lo que puede ser modificada. Le recomendamos que visite la página con regularidad, donde le informaremos de cualquier actualización al respecto.</p>
+            </div>
+        </article>
+  </div>
+</main>
+<footer class="site-footer">
+
+<a id="scroll-up" href="#"> <i class="fa fa-angle-up"></i>
+</a>
+<div class="row">
+  <div class="col-md-2 col-sm-12">
+      <ul class="main-footer main-footer-social">
+            <li><a href="https://twitter.com/paycomet" target="_blank" class="main-footer-social__item main-footer-social__item--twitter">TW</a></li>
+            <li><a href="https://www.linkedin.com/company/paycomet" target="_blank" class="main-footer-social__item main-footer-social__item--linkedin">IN</a></li>
+            <li><a href="https://www.youtube.com/channel/UC3RqWDyr8sR2wOejL5MG3nQ" target="_blank" class="main-footer-social__item main-footer-social__item--youtube">YT</a></li>
+      </ul>
+  </div>
+  <div class="col-md-8 col-sm-12">
+      <ul class="main-footer main-footer-menu">
+            <li class="main-footer-menu__item"><a class="main-footer-menu__link" href="https://www.paycomet.com/aviso-legal">Aviso legal</a></li>
+            <li class="main-footer-menu__item"><a class="main-footer-menu__link" href="https://www.paycomet.com/informacion-clientes">Información a clientes</a></li>
+            <li class="main-footer-menu__item"><a class="main-footer-menu__link" href="/es/politica-cookies">Cookies</a></li>
+            <li class="main-footer-menu__item"><a class="main-footer-menu__link" href="https://www.paycomet.com/condiciones-generales">Condiciones generales</a></li>
+      </ul>
+      <br>
+      <ul class="main-footer main-footer-menu">      
+            <li class="main-footer-menu__item"><a class="main-footer-menu__link" href="https://www.paycomet.com/politica-de-privacidad">Politica de privacidad</a></li>
+            <li class="main-footer-menu__item"><a class="main-footer-menu__link" href="https://www.paycomet.com/sac">Atención al Cliente</a></li>
+      </ul>
+  </div>
+  <div class="col-md-2 col-sm-12">
+  <div class="main-footer main-footer-last">
+    <p>PAYCOMET ©  2024</p>
+  </div>
+  </div>
+</div>
+
+</footer>
+
+<script src="assets/js/jquery.min.js?v=1745135406"></script><script src="assets/js/jquery-ui.min.js?v=1745135406"></script><script src="assets/js/bootstrap.bundle.min.js?v=1745135406"></script><script src="assets/js/clipboard.min.js?v=1745135406"></script><script src="assets/js/paycomet.js?v=1745135406"></script><script src="assets/js/custom.js?v=1745135406"></script><script src="assets/js/prism.js?v=1745135406"></script><!-- Global site tag (gtag.js) - Google Ads: 766209221 -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=AW-766209221"></script>
+<script>
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+
+gtag('config', 'AW-766209221');
+</script>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-Y2BJDZNV30"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-Y2BJDZNV30');
+</script>
+</body>
+</html>
+

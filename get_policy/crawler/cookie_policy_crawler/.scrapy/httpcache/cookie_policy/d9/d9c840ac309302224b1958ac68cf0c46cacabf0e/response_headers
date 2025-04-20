@@ -1,0 +1,17 @@
+Date: Sun, 20 Apr 2025 07:50:16 GMT
+Content-Type: text/html; charset=utf-8
+X-Ws-Ratelimit-Limit: 1000
+X-Ws-Ratelimit-Remaining: 999
+Server: cloudflare
+X-Powered-By: PHP/8.2.28
+Cf-Cache-Status: DYNAMIC
+Vary: Accept-Encoding
+X-Content-Encoded-By: Joomla
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Pragma: no-cache
+Last-Modified: Sun, 20 Apr 2025 07:50:16 GMT
+Content-Encoding: zstd
+Set-Cookie: 91152e3d484b2df6e5f3e9c60b85686e=1b5da98c6a05cdd77e3ca2787947c990; HttpOnly; Secure; Path=/
+Cf-Ray: 93330cbc3fef855a-HKG
+Alt-Svc: h3=":443"; ma=86400

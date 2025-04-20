@@ -1,0 +1,12 @@
+Content-Length: 207
+Content-Type: text/plain; charset=UTF-8
+X-Ws-Ratelimit-Limit: 1000
+X-Ws-Ratelimit-Remaining: 999
+Date: Sun, 20 Apr 2025 07:50:18 GMT
+Server: Apache
+Accept-Ranges: bytes
+Cache-Control: max-age=3600, public
+Expires: Sun, 20 Apr 2025 08:50:18 GMT
+Vary: Accept-Encoding
+Content-Encoding: gzip
+X-Powered-By: WP Rocket/3.18.3

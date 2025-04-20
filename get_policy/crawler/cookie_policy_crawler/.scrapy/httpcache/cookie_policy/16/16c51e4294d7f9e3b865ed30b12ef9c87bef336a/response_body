@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Página Indefinida </title>
+
+            <link rel="stylesheet" type="text/css" href="static/css/undefinedPage.css">
+    </head>
+<body>
+    <div id="error-container">
+                    <img src="static/img/triste.png">
+        
+        <div id="error-text">
+            <h1> ERRO 404 </h1>
+            <h2> SITE INDISPONÍVEL </h2>
+            <p> A página requisitada não foi localizada no servidor </p>
+            <button onclick="location.href = '/'"> Voltar para o início </button>
+        </div>
+    </div>
+</body>
+</html>

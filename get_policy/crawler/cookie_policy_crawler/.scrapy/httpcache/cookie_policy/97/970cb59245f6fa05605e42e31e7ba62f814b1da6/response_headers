@@ -1,0 +1,15 @@
+Content-Length: 96
+Etag: 3443f1fab1f06693de122407bb01d309
+Last-Modified: Tue, 18 Mar 2025 12:07:06 GMT
+Content-Encoding: gzip
+Content-Type: text/plain; charset=UTF-8
+Age: 2835791
+Accept-Ranges: bytes
+Cache-Control: max-age=31622400,stale-while-revalidate=600,stale-if-error=1200
+Date: Sun, 20 Apr 2025 07:50:18 GMT
+X-Served-By: cache-qpg1254-QPG
+X-Cache: HIT (3582) - SSDV2, MISS
+X-Cache-Hits: 0
+X-Timer: S1745135418.911008,VS0,VE370
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31557600

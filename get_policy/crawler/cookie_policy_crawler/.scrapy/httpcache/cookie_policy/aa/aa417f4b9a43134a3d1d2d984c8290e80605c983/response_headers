@@ -1,0 +1,13 @@
+Content-Length: 1245
+Date: Sun, 20 Apr 2025 07:50:07 GMT
+Content-Type: text/html
+Set-Cookie: X-Oracle-BMC-LBS-Route=f02f3faf825aeabfd7f21fc81cfa15adfd039630; Path=/; Secure; HttpOnly
+Cache-Control: no-cache, no-store, must-revalidate
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Referrer-Policy: same-origin
+X-Permitted-Cross-Domain-Policies: none
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+Feature-Policy: accelerometer 'none'; camera 'none'; geolocation 'none'; gyroscope 'none'; magnetometer 'none'; microphone 'none'; payment 'none'; usb 'none'
+Access-Control-Allow-Methods: GET, POST

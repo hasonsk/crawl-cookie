@@ -1,0 +1,21 @@
+Content-Length: 1434
+Content-Type: text/plain;charset=iso-8859-1
+X-Dispatcher: dispatcher4southeastasia-28647091
+X-Vhost: publish_microsoft_s
+Accept-Ch: Sec-CH-UA-Platform-Version
+X-Content-Type-Options: nosniff
+Ms-Commit-Id: dd38d88
+Last-Modified: Tue, 08 Apr 2025 19:00:45 GMT
+Accept-Ranges: bytes
+Content-Encoding: gzip
+X-Frame-Options: SAMEORIGIN
+Content-Disposition: inline
+Date: Sun, 20 Apr 2025 07:50:11 GMT
+Vary: Accept-Encoding
+Set-Cookie: ApplicationGatewayAffinityCORS=b09da6fe7bed55055d51a0ebb068b08b; Path=/; SameSite=None; Secure
+Set-Cookie: ApplicationGatewayAffinity=b09da6fe7bed55055d51a0ebb068b08b; Path=/
+Tls_Version: tls1.3
+Strict-Transport-Security: max-age=31536000
+Ms-Cv: CASMicrosoftCV1a8ee30b.0
+Ms-Cv-Esi: CASMicrosoftCV1a8ee30b.0
+X-Rtag: RT

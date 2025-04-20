@@ -1,0 +1,16 @@
+Date: Sun, 20 Apr 2025 07:50:11 GMT
+Content-Type: text/html; charset=utf-8
+Access-Control-Expose-Headers: Request-Context
+Cache-Control: private
+Set-Cookie: ARRAffinity=ff5cb99d3eec41766167a618681d3402801f192f0a962167850001d91ff743bf;Path=/;HttpOnly;Secure;Domain=cookiepedia.co.uk
+Set-Cookie: ARRAffinitySameSite=ff5cb99d3eec41766167a618681d3402801f192f0a962167850001d91ff743bf;Path=/;HttpOnly;SameSite=None;Secure;Domain=cookiepedia.co.uk
+Request-Context: appId=cid-v1:f50c1af5-f67a-4ffb-be89-1cb8a12737cb
+X-Frame-Options: SAMEORIGIN
+X-Xss-Protection: 1; mode=block
+X-Content-Type-Options: nosniff
+Content-Security-Policy: default-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.cookielaw.org https://privacyportal.onetrust.com http://www.google-analytics.com https://ssl.google-analytics.com;                script-src 'self' 'unsafe-inline' 'unsafe-eval' https://cdn.cookielaw.org https://privacyportal.onetrust.com http://www.google-analytics.com https://www.google-analytics.com https://ssl.google-analytics.com;                img-src 'self' data: http://www.google-analytics.com https://www.google-analytics.com https://www.google.co.in https://www.google.com https://stats.g.doubleclick.net https://ssl.google-analytics.com https://cdn.cookielaw.org;
+Cf-Cache-Status: DYNAMIC
+Strict-Transport-Security: max-age=31536000; includeSubDomains; preload
+Server: cloudflare
+Cf-Ray: 93330c999d6d0963-HKG
+Content-Encoding: gzip

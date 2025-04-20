@@ -1,0 +1,24 @@
+Date: Sun, 20 Apr 2025 07:50:08 GMT
+Content-Type: text/plain; charset=utf-8
+Content-Encoding: zstd
+Cf-Ray: 93330c88e92804d7-HKG
+X-Frame-Options: SAMEORIGIN
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Pre-Cognitive-Push: Enabled
+Quantum-Flux-Capacity: Omega
+Strict-Transport-Security: max-age=15552000; preload
+Cache-Control: public, no-cache
+Referrer-Policy: strict-origin-when-cross-origin
+X-Grid-Srcache-Ttl: 2592000
+X-Grid-Srcache-Fetch: HIT
+X-Grid-Srcache-Store: BYPASS
+Cf-Cache-Status: EXPIRED
+Last-Modified: Sun, 20 Apr 2025 07:50:08 GMT
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=5M7JNxsefPpcmDH2TPYCPvrWNpS1PUSJVZvhl6BtHcGPS9rj%2F7dD8ULQoteW8PWkM71rv1cZPtV8BvXfxLq7yPt0iHlsLrJkbK9uljzTBxdpNf0haFqIzN1aD0Lsxkc%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Vary: Accept-Encoding
+X-Supervisor: Carlos Longarela https://tabernawp.com/
+Server: cloudflare
+Alt-Svc: h3=":443"; ma=86400
+Server-Timing: cfL4;desc="?proto=TCP&rtt=26825&min_rtt=25926&rtt_var=10364&sent=4&recv=5&lost=0&retrans=0&sent_bytes=2827&recv_bytes=932&delivery_rate=111085&cwnd=246&unsent_bytes=0&cid=8be3073117b68395&ts=833&x=0"

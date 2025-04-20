@@ -1,0 +1,11 @@
+Content-Length: 252
+Location: https://support.google.com/chrome/?p=rl_error&hl=en
+Date: Sun, 20 Apr 2025 07:50:19 GMT
+Expires: Sun, 20 Apr 2025 07:50:19 GMT
+Cache-Control: private, max-age=0
+Content-Type: text/html; charset=UTF-8
+X-Content-Type-Options: nosniff
+Server: support-content-ui
+X-Xss-Protection: 0
+X-Frame-Options: SAMEORIGIN
+Alt-Svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000

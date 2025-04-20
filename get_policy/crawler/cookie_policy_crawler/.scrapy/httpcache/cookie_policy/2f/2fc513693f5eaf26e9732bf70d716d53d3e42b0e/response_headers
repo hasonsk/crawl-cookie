@@ -1,0 +1,12 @@
+Content-Length: 5501
+Server: nginx
+Date: Sun, 20 Apr 2025 07:50:17 GMT
+Content-Type: text/html; charset=UTF-8
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, no-store, max-age=0, no-cache
+Pragma: no-cache
+Set-Cookie: ci_session=nhjd0qu3kfjukdr852s9sca24i9g17ht; expires=Sun, 20 Apr 2025 09:50:16 GMT; Max-Age=7200; path=/; HttpOnly; SameSite=Lax
+Vary: User-Agent,Accept-Encoding
+Content-Encoding: gzip
+X-Powered-By: Loading
+Strict-Transport-Security: max-age=15768000; includeSubDomains

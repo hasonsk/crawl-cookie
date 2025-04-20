@@ -1,0 +1,14 @@
+Content-Length: 47572
+Date: Sun, 20 Apr 2025 07:50:19 GMT
+Server: Apache
+Server-Timing: jpresta_cache;desc=1
+Timing-Allow-Origin: *
+Expires: Sun, 20 Apr 2025 08:35:19 GMT
+Cache-Control: max-age=2700, private
+X-Jpresta-Cache-Infos: status=on, reason=, age=180406
+Set-Cookie: jpresta_cache_context=499daa1c-d157-11ee-976e-f08cef0858a1; expires=Sun, 20-Apr-2025 08:50:19 GMT; Max-Age=3600; path=/
+Last-Modified: Sun, 20 Apr 2025 07:50:19 GMT
+Accept-Ranges: none
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Content-Type: text/html; charset=utf-8

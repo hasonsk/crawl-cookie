@@ -1,0 +1,19 @@
+Content-Length: 118
+Content-Type: text/plain; charset=utf-8
+Date: Sun, 20 Apr 2025 07:50:11 GMT
+Server: Apache
+X-Robots-Tag: noindex, follow
+Link: <https://kore.ai/wp-json/>; rel="https://api.w.org/"
+Content-Security-Policy: frame-ancestors https://*.smartassist.ai https://*.kore.ai https://*.korebots.com https://*.kore.ai https://*.kore.com https://bots.kore.ai
+X-Frame-Options: SAMEORIGIN
+Feature-Policy: fullscreen 'none'
+Content-Encoding: gzip
+X-Content-Type-Options: nosniff
+X-Xss-Protection: 1; mode=block
+Referrer-Policy: no-referrer-when-downgrade
+X-Permitted-Cross-Domain-Policies: none
+Vary: Accept-Encoding
+X-Cache: Miss from cloudfront
+Via: 1.1 50e34eb95e2df1a54ef45baf53d8856a.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: HAN50-P1
+X-Amz-Cf-Id: QixTFc9dfwjq-xc-8PSNSxKQK2mZPRy0tvvjevFjmQ1VZjz9oGEjuA==

@@ -1,0 +1,14 @@
+Content-Length: 114
+Content-Type: text/plain
+Server: Kestrel
+Accept-Ranges: bytes
+Etag: "1dba9ad4df68762"
+Last-Modified: Thu, 10 Apr 2025 00:12:54 GMT
+Request-Context: appId=cid-v1:d94c0f68-64bf-4036-8409-a0e761bb7ee1
+Content-Encoding: gzip
+Expires: Sun, 20 Apr 2025 07:50:08 GMT
+Cache-Control: max-age=0, no-cache, no-store
+Pragma: no-cache
+Date: Sun, 20 Apr 2025 07:50:08 GMT
+Vary: Accept-Encoding
+Strict-Transport-Security: max-age=31536000 ; includeSubDomains

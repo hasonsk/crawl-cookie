@@ -1,0 +1,16 @@
+Date: Sun, 20 Apr 2025 07:50:15 GMT
+Content-Type: text/plain; charset=utf-8
+Cf-Ray: 93330ca1aba0898c-SIN
+Server: cloudflare
+Link: <https://escolharennova.com.br/wp-json/>; rel="https://api.w.org/"
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Referrer-Policy: no-referrer-when-downgrade
+Cache-Control: max-age=14400
+Cf-Cache-Status: MISS
+Last-Modified: Sun, 20 Apr 2025 07:50:15 GMT
+Report-To: {"endpoints":[{"url":"https:\/\/a.nel.cloudflare.com\/report\/v4?s=HgjcrSQ1%2BY23S4DJM3PK9IYj%2B1i%2BS%2BuHiyHFAUEnxwEqDBkslMZEpQTZ5Mb2GbA%2Ba3An4UfPH4%2FjjLzz0y6nnHSvA0xDeaw06v5HxOFoRdnLpuSFaTdDXf96Ylzvr9Pgqhh6dLhLIdA%3D"}],"group":"cf-nel","max_age":604800}
+Nel: {"success_fraction":0,"report_to":"cf-nel","max_age":604800}
+Strict-Transport-Security: max-age=0; includeSubDomains
+Alt-Svc: h3=":443"; ma=86400
+Server-Timing: cfL4;desc="?proto=TCP&rtt=60489&min_rtt=60105&rtt_var=22813&sent=4&recv=5&lost=0&retrans=0&sent_bytes=2855&recv_bytes=941&delivery_rate=47916&cwnd=247&unsent_bytes=0&cid=f0e84d85cfbdc013&ts=4560&x=0"

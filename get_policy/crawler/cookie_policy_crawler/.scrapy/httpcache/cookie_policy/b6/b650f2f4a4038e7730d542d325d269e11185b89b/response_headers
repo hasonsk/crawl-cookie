@@ -1,0 +1,21 @@
+Content-Type: text/html; charset=utf-8
+Cache-Control: no-store
+X-Trace-Id: 301b885fa0c4d02288fc9d3b2cbebad7
+X-Cascade-Version: vNext
+X-Envoy-Upstream-Service-Time: 10
+Strict-Transport-Security: max-age=31536000; includeSubDomains
+X-Cluster: il-aks-sc-prod-aue-foxtrot-prod
+X-Clustertype: customer
+X-Environment: prod
+X-Instance: foxtrot-prod
+X-Region: australiaeast
+X-Tenantenvironment: prod
+X-Azure-Ref: 20250420T075012Z-r16c6d6676dlnnxlhC1HKGh6kw000000072g000000003e28
+Accept-Ranges: bytes
+Vary: Accept-Encoding
+Content-Encoding: gzip
+Date: Sun, 20 Apr 2025 07:50:12 GMT
+Tls_Version: tls1.3
+Ms-Cv: CASMicrosoftCV1a8ee82b.0
+Ms-Cv-Esi: CASMicrosoftCV1a8ee82b.0
+X-Rtag: CASv2_Redir

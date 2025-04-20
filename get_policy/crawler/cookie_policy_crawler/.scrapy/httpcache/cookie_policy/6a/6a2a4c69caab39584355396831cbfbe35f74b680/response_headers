@@ -1,0 +1,20 @@
+Content-Length: 5359
+Date: Sun, 20 Apr 2025 07:50:19 GMT
+Server: Apache
+Strict-Transport-Security: max-age=63072000
+X-Xss-Protection: 1; mode=block
+Last-Modified: Thu, 12 Sep 2024 16:02:28 GMT
+Etag: "6609-621ee3bbb30aa-gzip"
+Accept-Ranges: bytes
+Cache-Control: max-age=1209600
+Expires: Sun, 04 May 2025 07:50:19 GMT
+Vary: Origin
+Content-Encoding: gzip
+Public-Key-Pins: pin-sha256="jDNPIoQdviZhELycQEXvXmBzJFLLM13xUlT8Jamgc0U="; pin-sha256="KVhT/NkSwnjmxDOvcy6MKwG9ak5RAgxEOV0QQBT94Bo="; pin-sha256="5kJvNEMw0KjrCAu7eXY5HZdvyCS13BbA0VJG1RSP91w="; pin-sha256="r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E="; report-uri="https://ceuhu.report-uri.com/r/d/hpkp/reportOnly"; max-age=648000;
+X-Content-Type-Options: nosniff
+Access-Control-Allow-Methods: POST, GET, OPTIONS
+Access-Control-Allow-Origin: https://people.ceu.edu
+Access-Control-Allow-Credentials: true
+Expect-Ct: enforce,max-age=300, report-uri=https://ceuhu.report-uri.com/r/d/ct/reportOnly
+Referrer-Policy: origin
+Content-Type: text/plain; charset=UTF-8

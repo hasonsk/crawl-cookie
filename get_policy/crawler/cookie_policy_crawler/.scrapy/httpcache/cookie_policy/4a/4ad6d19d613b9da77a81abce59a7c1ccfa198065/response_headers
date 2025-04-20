@@ -1,0 +1,12 @@
+Date: Sun, 20 Apr 2025 07:50:15 GMT
+Content-Type: text/plain;charset=UTF-8
+Set-Cookie: AWSALB=xFYFQzVOs/231zRoLU39SjhYh2/u3AQEcA9ZzF0GiL+mwHYG+468lRgDyilDoKSPl2ORhCwieLCFmBVSC4hKwUcABCMATrCZCuy/XJFuLbLRu29FK+oXAfxPjdK9; Expires=Sun, 27 Apr 2025 07:50:15 GMT; Path=/
+Set-Cookie: AWSALBCORS=xFYFQzVOs/231zRoLU39SjhYh2/u3AQEcA9ZzF0GiL+mwHYG+468lRgDyilDoKSPl2ORhCwieLCFmBVSC4hKwUcABCMATrCZCuy/XJFuLbLRu29FK+oXAfxPjdK9; Expires=Sun, 27 Apr 2025 07:50:15 GMT; Path=/; SameSite=None; Secure
+Set-Cookie: PHPSESSID=46d8531906e040365ebde9d7ea299f7a; path=/; secure; HttpOnly
+Expires: Thu, 19 Nov 1981 08:52:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate
+Cache-Control: public
+Pragma: no-cache
+Content-Security-Policy: frame-ancestors 'self' communico.co *.communico.co communico.tv libnet.info *.libnet.info events.columbuslibrary.org;
+Server: Communico
+Content-Encoding: gzip

@@ -1,0 +1,9 @@
+Content-Length: 106
+Link: <https://emprendeconhuevitos.com/wp-json/>; rel="https://api.w.org/"
+Content-Type: text/plain; charset=utf-8
+Cache-Control: public, max-age=2592000
+Expires: Tue, 20 May 2025 07:50:10 GMT
+Content-Encoding: br
+Vary: Accept-Encoding,Accept-Encoding
+Date: Sun, 20 Apr 2025 07:50:10 GMT
+Alt-Svc: h3=":443"; ma=2592000, h3-29=":443"; ma=2592000, h3-Q050=":443"; ma=2592000, h3-Q046=":443"; ma=2592000, h3-Q043=":443"; ma=2592000, quic=":443"; ma=2592000; v="43,46"

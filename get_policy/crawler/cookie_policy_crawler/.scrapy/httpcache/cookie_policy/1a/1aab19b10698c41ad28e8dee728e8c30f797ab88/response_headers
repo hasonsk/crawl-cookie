@@ -1,0 +1,14 @@
+Date: Sun, 20 Apr 2025 07:50:17 GMT
+Server: Apache
+X-Powered-By: PHP/7.4.33
+Cache-Control: max-age=0, private, must-revalidate, no-cache, private
+X-Stuttseoredirects-Predispatch: FALSE
+Link: </web/cache/1742845415_ab9d75596afcc6122b2ad726560f60f2.css>; rel="preload"; as="style",</web/cache/1742845415_ab9d75596afcc6122b2ad726560f60f2.js>; rel="preload"; as="script"
+X-Content-Digest: en48cb9d0a5f926b485fe0d91ad853ddecf5b97425bae1c432f08e55ab56431fa3
+Age: 3212
+Set-Cookie: session-16=40d859a96237cd8c599a547be03c587e; path=/; secure; HttpOnly
+Set-Cookie: x-cache-context-hash=deleted; expires=Sat, 20-Apr-2024 07:50:16 GMT; Max-Age=0; path=/
+Set-Cookie: nocache=deleted; expires=Sat, 20-Apr-2024 07:50:16 GMT; Max-Age=0; path=/; secure; httponly
+Vary: Accept-Encoding
+Content-Encoding: br
+Content-Type: text/html; charset=UTF-8

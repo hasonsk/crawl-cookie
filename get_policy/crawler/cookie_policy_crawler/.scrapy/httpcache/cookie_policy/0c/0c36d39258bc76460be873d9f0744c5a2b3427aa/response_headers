@@ -1,0 +1,16 @@
+Server: nginx
+Date: Sun, 20 Apr 2025 07:50:20 GMT
+Content-Type: text/html; charset=utf-8
+X-Logged-In: False
+P3P: CP="NOI ADM DEV PSAi COM NAV OUR OTRo STP IND DEM"
+Permissions-Policy: interest-cohort=()
+Content-Encoding: gzip
+Vary: Accept-Encoding
+Expires: Wed, 17 Aug 2005 00:00:00 GMT
+Cache-Control: no-store, no-cache, must-revalidate, post-check=0, pre-check=0
+Cache-Control: public
+Pragma: no-cache
+Set-Cookie: 3c70b4452566758848ec649708ce1e05=b1f9un97mfn8aj98ou7manr7r9; path=/; secure; HttpOnly; SameSite=None
+Set-Cookie: ef132bb1a3f12b693c1c158682726ed3=en-GB; expires=Mon, 20-Apr-2026 07:50:20 GMT; Max-Age=31536000; path=/; secure; HttpOnly
+Last-Modified: Sun, 20 Apr 2025 07:50:20 GMT
+X-Frame-Options: SAMEORIGIN

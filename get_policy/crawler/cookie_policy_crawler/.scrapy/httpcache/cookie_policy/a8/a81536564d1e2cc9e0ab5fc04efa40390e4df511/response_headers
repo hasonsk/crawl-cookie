@@ -1,0 +1,12 @@
+Content-Length: 44
+Content-Type: text/plain
+Date: Sun, 13 Apr 2025 09:17:26 GMT
+Cache-Control: max-age=0,no-cache,no-store,must-revalidate
+Last-Modified: Thu, 27 Mar 2025 14:24:13 GMT
+Etag: "740331e8c28f252a35d8b05f0e213d0b"
+Server: AmazonS3
+X-Cache: Hit from cloudfront
+Via: 1.1 aef00f14752da9aa504d392fd46eff94.cloudfront.net (CloudFront)
+X-Amz-Cf-Pop: SEA19-C2
+X-Amz-Cf-Id: A7ZUY6rJD0rZRbawmf3opRXzgDl2OGJHtXYajt90De3D46j1tm2lxg==
+Age: 599564

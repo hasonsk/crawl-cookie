@@ -1,0 +1,236 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <link rel="shortcut icon" href="/Content/assets/img/GF-Logo-on-black-sm.jpg">
+    <title>GreenFlag</title>
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/Content/assets/css/style.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,700" rel="stylesheet">
+    <link href="/Content/assets/open-iconic/font/css/open-iconic-bootstrap.css" rel="stylesheet">
+    <link href="/Content/css/pace.css" rel="stylesheet" />
+    <script src="/Scripts/Utility/pace.js"></script>
+    <script src="/Scripts/jquery-3.1.1.js"></script>
+ <noscript>
+
+   <meta http-equiv="refresh" content="0; URL=https://docs.greenflag.com/Alerts/JavaScriptRequired" />
+ </noscript>
+    <link href="/Content/assets/css/style.css" rel="stylesheet">
+    <script src='//rum.monitis.com/get/jsbenchmark.min.js?id=#{RUMID}' type='text/javascript' async='async'></script>
+        <!-- OneTrust Cookies Consent Notice start for docs.greenflag.com -->
+        <script src="https://cdn-ukwest.onetrust.com/scripttemplates/otSDKStub.js" type="text/javascript" charset="UTF-8" data-domain-script="38ec0f8a-fc9d-4bb4-bf80-6661a95d33c2"></script>
+        <script type="text/javascript">
+            function OptanonWrapper() { }
+        </script>
+        <!-- OneTrust Cookies Consent Notice end for docs.greenflag.com -->
+
+</head>
+<body style="">
+    <nav class="navbar navbar-expand-md container">
+        <a class="navbar-brand" href="/IndexSearch/Index">
+            <img src="/Content/assets/img/GF-Logo-on-black-sm.jpg" width="220" alt="Logo small" class="d-lg-none pl10">
+            <img src="/Content/assets/img/GF-Logo-on-black3.jpg" width="400" alt="Logo large" class="d-none d-lg-block">
+        </a>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="https://buy.greenflag-breakdown.com/qpm/#/login" target="_blank">
+                        Retrieve a quote
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="https://www.greenflag.com/" target="_blank">
+                        back to greenflag.com
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    
+
+
+
+<article class="white container">
+    <div class="container">
+        <div class="row">
+            <div class="col pre-header pt-3">
+                <!-- BEGIN -->
+                <div class="legal" id="legal">
+                    <h1>Use of cookies</h1>
+                    <h2>Visitors to our website</h2>
+                    <p>We use technology to collect anonymous information about the use of our website. We do this in order to provide you with the best possible online service. This technology is called cookies, which we store on your device.</p>
+                    <p>You can visit our website without telling us who you are or revealing any information about yourself. However, if you give us any personal information about yourself or others we promise to treat it securely, fairly and lawfully. We are committed to protecting your privacy.</p>
+                    <p>If you do provide us with any personal information through our website, we will be up front about how this will be used. We will make it clear when we collect your personal information and will explain what we intend to do with it.</p>
+                    <h2>What technologies will we use?</h2>
+                    <p>We will use cookies and tags to help us enhance your browsing experience. With your consent we may use your personal information gathered on this site to enable us to assist you if you experience any difficulty with any of our applications, for example accessing our client portal.</p>
+                    <h2>What is a tag?</h2>
+                    <p>A tag is a small piece of code which is placed on our website and collects data. This code would only collect data on our website alone. A tag will not be stored on your browser; however, it may use a cookie which could be placed on your browser.</p>
+                    <h2>What is a cookie?</h2>
+                    <p>A cookie is a small piece of information which is sent to your browser and it stays on your computer or mobile device when you visit our website. Cookies do not damage your device; they are merely used to 'remember' you when you visit again. Cookies alone cannot be used to identify you.</p>
+                    <p>A cookie will transport information to us about how you use our website. The cookie itself does not keep any of the data it collects.</p>
+                    <h2>What do cookies mean for you?</h2>
+                    <p>It is up to you whether you let websites place cookies on your browser or not. There are many benefits for allowing these, however there are some drawbacks. Above we described to you what we use the cookies for. Below we give you some of what we believe will be the benefits to you, however you need to make the decision whether you allow cookies to be stored on your device or not. We will also tell you below how to refuse cookies being stored on your device.</p>
+                    <h2>Why do we want to use cookies?</h2>
+                    <p>We use cookies to:</p>
+                    <ul>
+                        <li>make our websites work</li>
+                        <li>improve the efficiency of our websites</li>
+                        <li>provide effective security</li>
+                        <li>help quickly arrange content that matches your interests</li>
+                        <li>learn from our website visitors and give the best customer experience we possibly can</li>
+                        <li>track the effectiveness of any online marketing activity</li>
+                        <li>collect statistical information regarding the use of our website</li>
+                    </ul>
+                    <h2>Some benefits to you:</h2>
+                    <ul>
+                        <li>security</li>
+                        <li>the ability to view pages that are more relevant to you</li>
+                        <li>you are not asked repeatedly the same questions; for example to complete a survey</li>
+                    </ul>
+                    <h2>Some drawbacks:</h2>
+                    <ul>
+                        <li>some cookies are stored on your browser for a certain length of time</li>
+                        <li>some cookies may be used to track your viewing behaviour when you visit our website</li>
+                    </ul>
+                    <h2>What types of cookie do we use?</h2>
+                    <p>The following table lists the types of cookies that we use on our site:</p>
+                        <!-- OneTrust Cookies List start -->
+                        <div id="ot-sdk-cookie-policy"></div>
+                        <!-- OneTrust Cookies List end -->
+                    <h2>How to refuse use of cookies</h2>
+                    <p>If you decide to not allow any cookies, you can do that by changing your internet browser settings. Please note, if you refuse the cookies you may experience slower running times and you may not be able to access all of our website content.</p>
+                    <table width="100%" border="0" class="tabular_data v_align_middle">
+                        <thead>
+                            <tr>
+                                <th>
+                                    <h2>Browser</h2>
+                                </th>
+                                <th>
+                                    <h2>Where to find information about controlling cookies</h2>
+                                </th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>
+                                    <p>Internet explorer</p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a target="_blank" href="http://support.microsoft.com/kb/278835">http://support.microsoft.com/kb/278835</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Chrome</p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a target="_blank" href="https://support.google.com/chrome/answer/95647?hl=en-GB">https://support.google.com/chrome/answer/95647?hl=en-GB</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Firefox</p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a target="_blank" href="http://support.mozilla.org/en-US/kb/Clear%20Recent%20History">http://support.mozilla.org/en-US/kb/Clear%20Recent%20History</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Safari</p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a target="_blank" href="http://support.apple.com/kb/PH5042">http://support.apple.com/kb/PH5042</a>
+                                    </p>
+                                </td>
+                            </tr>
+                            <tr>
+                                <td>
+                                    <p>Opera</p>
+                                </td>
+                                <td>
+                                    <p>
+                                        <a target="_blank" href="http://www.opera.com/browser/tutorials/security/privacy/">http://www.opera.com/browser/tutorials/security/privacy/</a>
+                                    </p>
+                                </td>
+                            </tr>
+                        </tbody>
+                    </table>
+                    <p>Other resources that provide further information on cookies which may be of help:</p>
+                    <p><a target="_blank" href="http://www.aboutcookies.org">http://www.aboutcookies.org</a></p>
+                    <p><a target="_blank" href="http://www.allaboutcookies.org">http://www.allaboutcookies.org</a></p>
+                    <p><a target="_blank" href="http://youronlinechoices.com/uk">http://youronlinechoices.com/uk</a></p>
+                    <p>DLG Legal Services is not responsible for the content of external websites.</p>
+                    <p class="text-right"><a href="#legal">Back to top</a></p>
+                </div>
+                <!-- END -->
+            </div>
+            <!-- /.col-md-12 -->
+        </div>
+        <!-- /.row -->
+    </div>
+    <!-- /.container -->
+</article>
+
+
+
+    <footer class="container">
+        <div class="row">
+            All rights reserved | <a href="https://www.greenflag.com/terms" target="_blank">&nbsp;Terms and Conditions |</a>  <a href="/Cookie" target="_blank">&nbsp; Cookies Policy</a>
+        </div>
+
+        <div class="flink d-block d-sm-none">
+            <div class="nav-item pl-0 pt-3">
+                <a class="nav-link active pl-0" style="width: 154px;" href="https://www.greenflag.com/" target="_blank">back to greenflag.com</a>
+            </div>
+            <div class="nav-item active pl-0">
+                <a class="nav-link pl-0" style="width: 154px;" href="https://buy.greenflag-breakdown.com/qpm/#/login" target="_blank">Retrieve a quote</a>
+            </div>
+
+        </div>
+    </footer>
+
+    <input ID="SiteName" name="/" type="hidden" value="/" />
+    <!-- Bootstrap core JavaScript
+        ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/Content/assets/js/bootstrap.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $('[data-toggle="tooltip"]').tooltip();
+        });
+    </script>
+    <script src="/Content/css/yaml/core/js/yaml-focusfix.js"></script>
+    <script src="/Scripts/jquery-migrate-1.2.1.js"></script>
+    <script src="/Scripts/jquery.fitvids.js"></script>
+    <script src="/Scripts/jquery.backstretch.js"></script>
+    <script src="/Scripts/json2.js"></script>
+    <script src="/Scripts/Utility/utility.js"></script>
+
+    
+    
+
+ 
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+Content-Type: text/plain
+Date: Sun, 20 Apr 2025 07:50:16 GMT
+Server: Microsoft-IIS/10.0
+Accept-Ranges: bytes
+Content-Encoding: gzip
+Etag: "1da95767ad04538"
+Last-Modified: Tue, 23 Apr 2024 12:05:06 GMT
+Set-Cookie: ARRAffinity=b43e80ef1fbcb9f9d446cbc61b366e02dafefc2a9addab525b1fc3eda44b27b2;Path=/;HttpOnly;Secure;Domain=eloflex.fr
+Set-Cookie: ARRAffinitySameSite=b43e80ef1fbcb9f9d446cbc61b366e02dafefc2a9addab525b1fc3eda44b27b2;Path=/;HttpOnly;SameSite=None;Secure;Domain=eloflex.fr
+Vary: Accept-Encoding
+X-Powered-By: ASP.NET
